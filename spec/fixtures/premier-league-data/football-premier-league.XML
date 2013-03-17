@@ -1,0 +1,2056 @@
+<category name="football-premier-league" timeGenerated="2013-03-11T20:56:38" Bookmaker="Corbetts">
+  <event name="Everton v Man City" eventid="1025773.18" date="20130316" time="1245" meeting="" venue="">
+    <bettype bet-start-date="20130316" bet-start-time="1245" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1613760.18">
+      <bet had-value="DRAW" name="Draw" id="70190563.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton" id="70190564.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City" id="70190565.18" price="11/10" priceDecimal="2.10" priceUS="110.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1245" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1613761.18">
+      <bet had-value="HOME" name="Everton 1-0" id="70190566.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 2-0" id="70190567.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 2-1" id="70190568.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 3-0" id="70190569.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 3-1" id="70190570.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 3-2" id="70190571.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 4-0" id="70190572.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 4-1" id="70190573.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 4-2" id="70190574.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 4-3" id="70190575.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 5-0" id="70190576.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 5-1" id="70190577.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 5-2" id="70190578.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 6-0" id="70190579.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 6-1" id="70190580.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 7-0" id="70190581.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 7-1" id="70190582.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 8-0" id="70190583.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 8-1" id="70190584.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 9-0" id="70190585.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 9-1" id="70190586.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Everton 10-0" id="70190587.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70190588.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70190589.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70190590.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70190591.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70190592.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 1-0" id="70190593.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 2-0" id="70190594.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 2-1" id="70190595.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 3-0" id="70190596.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 3-1" id="70190597.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 3-2" id="70190598.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 4-0" id="70190599.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 4-1" id="70190600.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 4-2" id="70190601.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 4-3" id="70190602.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 5-0" id="70190603.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 5-1" id="70190604.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 5-2" id="70190605.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 6-0" id="70190606.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 6-1" id="70190607.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 7-0" id="70190608.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 7-1" id="70190609.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 8-0" id="70190610.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 8-1" id="70190611.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 9-0" id="70190612.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 9-1" id="70190613.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City 10-0" id="70190614.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1245" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1613762.18">
+      <bet had-value="HOME" name="Everton - Everton" id="70190615.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Everton - Draw" id="70190616.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Everton - Man City" id="70190617.18" price="25/1" priceDecimal="26.00"
+           priceUS="2500.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Everton" id="70190618.18" price="13/2" priceDecimal="7.50" priceUS="650.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70190619.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Man City" id="70190620.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man City - Everton" id="70190621.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Man City - Draw" id="70190622.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man City - Man City" id="70190623.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1245" ewreduction="3" ewplaceterms="20"
+             eachway="1/3 Odds Place 1 - 20" suspended="false" name="First Goalscorer" inrunning="0"
+             bettypeid="1613763.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70190624.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Jelavic, Nikica" id="70222529.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Fellaini, Marouane" id="70222530.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Anichebe, Victor" id="70222531.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Vellios, Apostolos" id="70222532.18" price="12/1" priceDecimal="13.00"
+           priceUS="1200.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Mirallas, Kevin" id="70222533.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Naismith, Steven" id="70222534.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Pienaar, Steven" id="70222535.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Osman, Leon" id="70222536.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Gibson, Darron" id="70222537.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Barkley, Ross" id="70222538.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Hitzlsperger, Thomas" id="70222539.18" price="20/1" priceDecimal="21.00"
+           priceUS="2000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Baines, Leighton" id="70222540.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Oviedo, Bryan" id="70222541.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Duffy, Shane" id="70222542.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Coleman, Seamus" id="70222543.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Heitinga, Johnny" id="70222544.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Neville, Phil" id="70222545.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Distin, Sylvain" id="70222546.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aguero, Sergio" id="70222547.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Tevez, Carlos" id="70222548.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Dzeko, Edin" id="70222549.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Toure, Yaya" id="70222550.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Silva, David" id="70222551.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Nasri, Samir" id="70222552.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sinclair, Scott" id="70222553.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Kolarov, Aleksandar" id="70222554.18" price="16/1" priceDecimal="17.00"
+           priceUS="1600.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Milner, James" id="70222555.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Garcia, Javi" id="70222556.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Razak, Abdul" id="70222557.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Barry, Gareth" id="70222558.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Lescott, Joleon" id="70222559.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Zabaleta, Pablo" id="70222560.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Toure, Kolo" id="70222561.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Kompany, Vincent" id="70222562.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Richards, Micah" id="70222563.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Nastasic, Matija" id="70222564.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Clichy, Gael" id="70222565.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1245" suspended="false" name="Last Goalscorer" inrunning="0"
+             bettypeid="1613764.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70190704.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Tevez, Carlos" id="70222566.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aguero, Sergio" id="70222567.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Dzeko, Edin" id="70222568.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Jelavic, Nikica" id="70222569.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Fellaini, Marouane" id="70222570.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Toure, Yaya" id="70222571.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Anichebe, Victor" id="70222572.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Silva, David" id="70222573.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Mirallas, Kevin" id="70222574.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Nasri, Samir" id="70222575.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Vellios, Apostolos" id="70222576.18" price="12/1" priceDecimal="13.00"
+           priceUS="1200.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Naismith, Steven" id="70222577.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sinclair, Scott" id="70222578.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Pienaar, Steven" id="70222579.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Osman, Leon" id="70222580.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Gibson, Darron" id="70222581.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Kolarov, Aleksandar" id="70222582.18" price="16/1" priceDecimal="17.00"
+           priceUS="1600.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Milner, James" id="70222583.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Garcia, Javi" id="70222584.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Razak, Abdul" id="70222585.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Barkley, Ross" id="70222586.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Hitzlsperger, Thomas" id="70222587.18" price="20/1" priceDecimal="21.00"
+           priceUS="2000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Baines, Leighton" id="70222588.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Barry, Gareth" id="70222589.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Lescott, Joleon" id="70222590.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Zabaleta, Pablo" id="70222591.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Oviedo, Bryan" id="70222592.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Duffy, Shane" id="70222593.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Toure, Kolo" id="70222594.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Kompany, Vincent" id="70222595.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Richards, Micah" id="70222596.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Nastasic, Matija" id="70222597.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Coleman, Seamus" id="70222598.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Heitinga, Johnny" id="70222599.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Clichy, Gael" id="70222600.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Neville, Phil" id="70222601.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Distin, Sylvain" id="70222602.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1245" suspended="false" name="Score Anytime" inrunning="0"
+             bettypeid="1613765.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70190784.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Tevez, Carlos" id="70222603.18" price="5/4" priceDecimal="2.25" priceUS="125.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aguero, Sergio" id="70222604.18" price="6/4" priceDecimal="2.50" priceUS="150.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Dzeko, Edin" id="70222605.18" price="13/8" priceDecimal="2.63" priceUS="162.50"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Jelavic, Nikica" id="70222606.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Fellaini, Marouane" id="70222607.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Toure, Yaya" id="70222608.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Anichebe, Victor" id="70222609.18" price="11/4" priceDecimal="3.75" priceUS="275.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Silva, David" id="70222610.18" price="11/4" priceDecimal="3.75" priceUS="275.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Mirallas, Kevin" id="70222611.18" price="3/1" priceDecimal="4.00" priceUS="300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Nasri, Samir" id="70222612.18" price="3/1" priceDecimal="4.00" priceUS="300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Vellios, Apostolos" id="70222613.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Naismith, Steven" id="70222614.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sinclair, Scott" id="70222615.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Pienaar, Steven" id="70222616.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Osman, Leon" id="70222617.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Gibson, Darron" id="70222618.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Kolarov, Aleksandar" id="70222619.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Milner, James" id="70222620.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Garcia, Javi" id="70222621.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Razak, Abdul" id="70222622.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Barkley, Ross" id="70222623.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Hitzlsperger, Thomas" id="70222624.18" price="6/1" priceDecimal="7.00"
+           priceUS="600.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Baines, Leighton" id="70222625.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Barry, Gareth" id="70222626.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Lescott, Joleon" id="70222627.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Zabaleta, Pablo" id="70222628.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Oviedo, Bryan" id="70222629.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Duffy, Shane" id="70222630.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Toure, Kolo" id="70222631.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Kompany, Vincent" id="70222632.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Richards, Micah" id="70222633.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Nastasic, Matija" id="70222634.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Coleman, Seamus" id="70222635.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Heitinga, Johnny" id="70222636.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Clichy, Gael" id="70222637.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Neville, Phil" id="70222638.18" price="15/1" priceDecimal="16.00" priceUS="1500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Distin, Sylvain" id="70222639.18" price="15/1" priceDecimal="16.00" priceUS="1500.00"
+           active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Aston Villa v Q.P.R." eventid="1025774.18" date="20130316" time="1500" meeting="" venue="">
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1613788.18">
+      <bet had-value="DRAW" name="Draw" id="70190948.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa" id="70190949.18" price="6/5" priceDecimal="2.20" priceUS="120.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R." id="70190950.18" price="11/5" priceDecimal="3.20" priceUS="220.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1613789.18">
+      <bet had-value="HOME" name="Aston Villa 1-0" id="70190951.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 2-0" id="70190952.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 2-1" id="70190953.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 3-0" id="70190954.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 3-1" id="70190955.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 3-2" id="70190956.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 4-0" id="70190957.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 4-1" id="70190958.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 4-2" id="70190959.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 4-3" id="70190960.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 5-0" id="70190961.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 5-1" id="70190962.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 5-2" id="70190963.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 6-0" id="70190964.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 6-1" id="70190965.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 7-0" id="70190966.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 7-1" id="70190967.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 8-0" id="70190968.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 8-1" id="70190969.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 9-0" id="70190970.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 9-1" id="70190971.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Aston Villa 10-0" id="70190972.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70190973.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70190974.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70190975.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70190976.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70190977.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 1-0" id="70190978.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 2-0" id="70190979.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 2-1" id="70190980.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 3-0" id="70190981.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 3-1" id="70190982.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 3-2" id="70190983.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 4-0" id="70190984.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 4-1" id="70190985.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 4-2" id="70190986.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 4-3" id="70190987.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 5-0" id="70190988.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 5-1" id="70190989.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 5-2" id="70190990.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 6-0" id="70190991.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 6-1" id="70190992.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 7-0" id="70190993.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 7-1" id="70190994.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 8-0" id="70190995.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 8-1" id="70190996.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 9-0" id="70190997.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 9-1" id="70190998.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. 10-0" id="70190999.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1613790.18">
+      <bet had-value="HOME" name="Aston Villa - Aston Villa" id="70191000.18" price="5/2" priceDecimal="3.50"
+           priceUS="250.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Aston Villa - Draw" id="70191001.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aston Villa - Q.P.R." id="70191002.18" price="30/1" priceDecimal="31.00"
+           priceUS="3000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Aston Villa" id="70191003.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70191004.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Q.P.R." id="70191005.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Q.P.R. - Aston Villa" id="70191006.18" price="28/1" priceDecimal="29.00"
+           priceUS="2800.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Q.P.R. - Draw" id="70191007.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R. - Q.P.R." id="70191008.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" ewreduction="3" ewplaceterms="20"
+             eachway="1/3 Odds Place 1 - 20" suspended="false" name="First Goalscorer" inrunning="0"
+             bettypeid="1613791.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70191009.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Benteke, Christian" id="70222643.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bent, Darren" id="70222644.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Agbonlahor, Gabriel" id="70222645.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Weimann, Andreas" id="70222646.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="N'Zogbia, Charles" id="70222647.18" price="12/1" priceDecimal="13.00"
+           priceUS="1200.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Holman, Brett" id="70222648.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Dawkins, Simon" id="70222649.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bowery, Jordan" id="70222650.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bannan, Barry" id="70222651.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Carruthers, Samir" id="70222652.18" price="16/1" priceDecimal="17.00"
+           priceUS="1600.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Ireland, Stephen" id="70222653.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sylla, Yacouba" id="70222654.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Clark, Ciaran" id="70222655.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="El Ahmadi, Karim" id="70222656.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Baker, Nathan" id="70222657.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Herd, Chris" id="70222658.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Westwood, Ashley" id="70222659.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Vlaar, Ron" id="70222660.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Remy, Loic" id="70222661.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Zamora, Bobby" id="70222662.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Taarabt, Adel" id="70222663.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Bothroyd, Jay" id="70222664.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Hoilett, Junior" id="70222665.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Townsend, Andros" id="70222666.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Mackie, Jamie" id="70222667.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Wright-Phillips, S" id="70222668.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Samba, Christopher" id="70222670.18" price="20/1" priceDecimal="21.00"
+           priceUS="2000.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Jenas, Jermaine" id="70222671.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Park, Ji-Sung" id="70222672.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Granero, Esteban" id="70222673.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fabio," id="70222674.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Hill, Clint" id="70222675.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Bosingwa, Jose" id="70222676.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Derry, Shaun" id="70222677.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Traore, Armand" id="70222678.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Last Goalscorer" inrunning="0"
+             bettypeid="1613792.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70191083.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Benteke, Christian" id="70222759.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bent, Darren" id="70222760.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Remy, Loic" id="70222761.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Agbonlahor, Gabriel" id="70222762.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Weimann, Andreas" id="70222763.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Zamora, Bobby" id="70222764.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Taarabt, Adel" id="70222765.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Bothroyd, Jay" id="70222766.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Hoilett, Junior" id="70222767.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="N'Zogbia, Charles" id="70222768.18" price="12/1" priceDecimal="13.00"
+           priceUS="1200.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Holman, Brett" id="70222769.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Townsend, Andros" id="70222770.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Mackie, Jamie" id="70222771.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Dawkins, Simon" id="70222772.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bowery, Jordan" id="70222773.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bannan, Barry" id="70222774.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Wright-Phillips, S" id="70222775.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Carruthers, Samir" id="70222776.18" price="16/1" priceDecimal="17.00"
+           priceUS="1600.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Ireland, Stephen" id="70222777.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Samba, Christopher" id="70222779.18" price="20/1" priceDecimal="21.00"
+           priceUS="2000.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Jenas, Jermaine" id="70222780.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Park, Ji-Sung" id="70222781.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sylla, Yacouba" id="70222782.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Clark, Ciaran" id="70222783.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="El Ahmadi, Karim" id="70222784.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Granero, Esteban" id="70222785.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Baker, Nathan" id="70222786.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Herd, Chris" id="70222787.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Westwood, Ashley" id="70222788.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Vlaar, Ron" id="70222789.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fabio," id="70222790.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Hill, Clint" id="70222791.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Bosingwa, Jose" id="70222792.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Derry, Shaun" id="70222793.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Traore, Armand" id="70222794.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Score Anytime" inrunning="0"
+             bettypeid="1613793.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70191157.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Benteke, Christian" id="70222722.18" price="5/4" priceDecimal="2.25" priceUS="125.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bent, Darren" id="70222723.18" price="13/8" priceDecimal="2.63" priceUS="162.50"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Remy, Loic" id="70222724.18" price="13/8" priceDecimal="2.63" priceUS="162.50"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Agbonlahor, Gabriel" id="70222725.18" price="15/8" priceDecimal="2.88"
+           priceUS="187.50" active-price-types="CP"/>
+      <bet had-value="HOME" name="Weimann, Andreas" id="70222726.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Zamora, Bobby" id="70222727.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Taarabt, Adel" id="70222728.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Bothroyd, Jay" id="70222729.18" price="11/4" priceDecimal="3.75" priceUS="275.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Hoilett, Junior" id="70222730.18" price="10/3" priceDecimal="4.33" priceUS="333.33"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="N'Zogbia, Charles" id="70222731.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Holman, Brett" id="70222732.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Townsend, Andros" id="70222733.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Mackie, Jamie" id="70222734.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Dawkins, Simon" id="70222735.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bowery, Jordan" id="70222736.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Bannan, Barry" id="70222737.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Wright-Phillips, S" id="70222738.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Carruthers, Samir" id="70222739.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Ireland, Stephen" id="70222740.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Samba, Christopher" id="70222742.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Jenas, Jermaine" id="70222743.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Park, Ji-Sung" id="70222744.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sylla, Yacouba" id="70222745.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Clark, Ciaran" id="70222746.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="El Ahmadi, Karim" id="70222747.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Granero, Esteban" id="70222748.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Baker, Nathan" id="70222749.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Herd, Chris" id="70222750.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Westwood, Ashley" id="70222751.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Vlaar, Ron" id="70222752.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fabio," id="70222753.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Hill, Clint" id="70222754.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Bosingwa, Jose" id="70222755.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Derry, Shaun" id="70222756.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Traore, Armand" id="70222757.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Half Time Betting" inrunning="0"
+             bettypeid="1613794.18">
+      <bet had-value="HOME" name="Aston Villa" id="70191231.18" price="7/4" priceDecimal="2.75" priceUS="175.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw" id="70191232.18" price="11/10" priceDecimal="2.10" priceUS="110.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R." id="70191233.18" price="11/4" priceDecimal="3.75" priceUS="275.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Which Half Most Goals"
+             inrunning="0" bettypeid="1613795.18">
+      <bet name="1st Half" id="70191234.18" price="2/1" priceDecimal="3.00" priceUS="200.00" active-price-types="CP"/>
+      <bet name="2nd Half" id="70191235.18" price="Evs" priceDecimal="Evs" priceUS="Evs"/>
+      <bet had-value="DRAW" name="Tie" id="70191236.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" handicap="-1" suspended="false" name="Match Handicap (-1)"
+             inrunning="0" bettypeid="1613796.18">
+      <bet had-value="HOME" name="Aston Villa" id="70191237.18" handicap-id="512799.10" handicap="-1" price="3/1"
+           priceDecimal="4.00" priceUS="300.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Tie" id="70191238.18" handicap-id="512800.10" handicap="-1" price="11/4"
+           priceDecimal="3.75" priceUS="275.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R." id="70191239.18" handicap-id="512801.10" handicap="1" price="4/6"
+           priceDecimal="1.67" priceUS="-66.67" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Score 1st Goal" inrunning="0"
+             bettypeid="1613797.18">
+      <bet had-value="HOME" name="Aston Villa" id="70191240.18" price="8/11" priceDecimal="1.73" priceUS="-72.73"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="No Goal" id="70191241.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R." id="70191242.18" price="5/4" priceDecimal="2.25" priceUS="125.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Time 1st Goal" inrunning="0"
+             bettypeid="1613798.18">
+      <bet had-value="DRAW" name="No 1st Goal" id="70191243.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="1-10 Mins" id="70191244.18" price="10/3" priceDecimal="4.33" priceUS="333.33"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="11-20 Mins" id="70191245.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="21-30 Mins" id="70191246.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="31-40 Mins" id="70191247.18" price="13/2" priceDecimal="7.50" priceUS="650.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="41-50 Mins" id="70191248.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="51-60 Mins" id="70191249.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="61-70 Mins" id="70191250.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="71-80 Mins" id="70191251.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="81-Final Whistle" id="70191252.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="1.5 Goals" inrunning="0"
+             bettypeid="1613799.18">
+      <bet had-value="HOME" name="Under 1.5 Goals" id="70191253.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aston Villa V Q.P.R. Over 1.5 Goals" id="70191254.18" price="2/7" priceDecimal="1.29"
+           priceUS="-28.57" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="2.5 Goals" inrunning="0"
+             bettypeid="1613800.18">
+      <bet had-value="HOME" name="Under 2.5 Goals" id="70191255.18" price="4/5" priceDecimal="1.80" priceUS="-80.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aston Villa V Q.P.R. Over 2.5 Goals" id="70191256.18" price="10/11"
+           priceDecimal="1.91" priceUS="-90.91" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="3.5 Goals" inrunning="0"
+             bettypeid="1613801.18">
+      <bet had-value="HOME" name="Under 3.5 Goals" id="70191257.18" price="1/3" priceDecimal="1.33" priceUS="-33.33"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aston Villa V Q.P.R. Over 3.5 Goals" id="70191258.18" price="9/4" priceDecimal="3.25"
+           priceUS="225.00" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Total Goals" inrunning="0"
+             bettypeid="1613802.18">
+      <bet had-value="HOME" name="0-1 Goal" id="70191259.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="2-3 Goals" id="70191260.18" price="10/11" priceDecimal="1.91" priceUS="-90.91"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="4+ Goals" id="70191261.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Both Teams To Score" inrunning="0"
+             bettypeid="1613803.18">
+      <bet had-value="HOME" name="Both To Score - Yes" id="70191262.18" price="8/11" priceDecimal="1.73"
+           priceUS="-72.73" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Aston Villa &amp; Q.P.R. To Score - No" id="70191263.18" price="Evs"
+           priceDecimal="Evs" priceUS="Evs"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Draw No Bet" inrunning="0"
+             bettypeid="1613804.18">
+      <bet had-value="HOME" name="Aston Villa" id="70191264.18" price="8/15" priceDecimal="1.53" priceUS="-53.33"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Q.P.R." id="70191265.18" price="11/8" priceDecimal="2.38" priceUS="137.50"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Double Chance" inrunning="0"
+             bettypeid="1613805.18">
+      <bet had-value="AWAY" name="Aston Villa Or Draw" id="70191266.18" price="1/3" priceDecimal="1.33" priceUS="-33.33"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Q.P.R. Or Draw" id="70191267.18" price="4/6" priceDecimal="1.67" priceUS="-66.67"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Aston Villa Or Q.P.R." id="70191268.18" price="3/10" priceDecimal="1.30"
+           priceUS="-30.00" active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Southampton v Liverpool" eventid="1025775.18" date="20130316" time="1500" meeting="" venue="">
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1613810.18">
+      <bet had-value="DRAW" name="Draw" id="70191288.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton" id="70191289.18" price="10/3" priceDecimal="4.33" priceUS="333.33"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool" id="70191290.18" price="4/5" priceDecimal="1.80" priceUS="-80.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1613811.18">
+      <bet had-value="HOME" name="Southampton 1-0" id="70191291.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 2-0" id="70191292.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 2-1" id="70191293.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 3-0" id="70191294.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 3-1" id="70191295.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 3-2" id="70191296.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 4-0" id="70191297.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 4-1" id="70191298.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 4-2" id="70191299.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 4-3" id="70191300.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 5-0" id="70191301.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 5-1" id="70191302.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 5-2" id="70191303.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 6-0" id="70191304.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 6-1" id="70191305.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 7-0" id="70191306.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 7-1" id="70191307.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 8-0" id="70191308.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 8-1" id="70191309.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 9-0" id="70191310.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 9-1" id="70191311.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Southampton 10-0" id="70191312.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70191313.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70191314.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70191315.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70191316.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70191317.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 1-0" id="70191318.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 2-0" id="70191319.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 2-1" id="70191320.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 3-0" id="70191321.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 3-1" id="70191322.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 3-2" id="70191323.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 4-0" id="70191324.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 4-1" id="70191325.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 4-2" id="70191326.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 4-3" id="70191327.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 5-0" id="70191328.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 5-1" id="70191329.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 5-2" id="70191330.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 6-0" id="70191331.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 6-1" id="70191332.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 7-0" id="70191333.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 7-1" id="70191334.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 8-0" id="70191335.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 8-1" id="70191336.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 9-0" id="70191337.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 9-1" id="70191338.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool 10-0" id="70191339.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1613812.18">
+      <bet had-value="HOME" name="Southampton - Southampton" id="70191340.18" price="6/1" priceDecimal="7.00"
+           priceUS="600.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Southampton - Draw" id="70191341.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Southampton - Liverpool" id="70191342.18" price="25/1" priceDecimal="26.00"
+           priceUS="2500.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Southampton" id="70191343.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70191344.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Liverpool" id="70191345.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Liverpool - Southampton" id="70191346.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Liverpool - Draw" id="70191347.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Liverpool - Liverpool" id="70191348.18" price="7/4" priceDecimal="2.75"
+           priceUS="175.00" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" ewreduction="3" ewplaceterms="20"
+             eachway="1/3 Odds Place 1 - 20" suspended="false" name="First Goalscorer" inrunning="0"
+             bettypeid="1613813.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70191349.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Lambert, Rickie" id="70222823.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Ramirez, Gaston" id="70222824.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Puncheon, Jason" id="70222825.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Mayuka, Emmanuel" id="70222826.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Lallana, Adam" id="70222827.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Do Prado, Guly" id="70222828.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Schneiderlin, Morgan" id="70222829.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Chaplow, Richard" id="70222830.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Davis, Steven" id="70222831.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Shaw, Luke" id="70222832.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Ward-Prowse, James" id="70222833.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Fonte, Jose" id="70222834.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Cork, Jack" id="70222835.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Fox, Daniel" id="70222836.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Yoshida, Maya" id="70222837.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Hooiveld, Jos" id="70222838.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Forren, Vegard" id="70222839.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Suarez, Luis" id="70222840.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sturridge, Daniel" id="70222841.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Gerrard, Steven" id="70222842.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Coutinho, Phillipe" id="70222843.18" price="10/1" priceDecimal="11.00"
+           priceUS="1000.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sterling, Raheem" id="70222844.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Downing, Stewart" id="70222845.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Shelvey, Jonjo" id="70222846.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Suso," id="70222847.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Henderson, Jordan" id="70222848.18" price="16/1" priceDecimal="17.00"
+           priceUS="1600.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Agger, Daniel" id="70222849.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Johnson, Glen" id="70222850.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Coates, Sebastian" id="70222851.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Lucas," id="70222852.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Enrique, Jose" id="70222853.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Allen, Joe" id="70222854.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Skrtel, Martin" id="70222855.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Wisdom, Andre" id="70222856.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Carragher, Jamie" id="70222857.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Last Goalscorer" inrunning="0"
+             bettypeid="1613814.18">
+      <bet had-value="DRAW" name="No Goalscorer" id="70191422.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Suarez, Luis" id="70222864.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sturridge, Daniel" id="70222865.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Gerrard, Steven" id="70222866.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Lambert, Rickie" id="70222867.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Ramirez, Gaston" id="70222868.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Coutinho, Phillipe" id="70222869.18" price="10/1" priceDecimal="11.00"
+           priceUS="1000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Puncheon, Jason" id="70222870.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sterling, Raheem" id="70222871.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Downing, Stewart" id="70222872.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Shelvey, Jonjo" id="70222873.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Suso," id="70222874.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Mayuka, Emmanuel" id="70222875.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Lallana, Adam" id="70222876.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Do Prado, Guly" id="70222877.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Schneiderlin, Morgan" id="70222878.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Henderson, Jordan" id="70222879.18" price="16/1" priceDecimal="17.00"
+           priceUS="1600.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Agger, Daniel" id="70222880.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Johnson, Glen" id="70222881.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chaplow, Richard" id="70222882.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Davis, Steven" id="70222883.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Shaw, Luke" id="70222884.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Ward-Prowse, James" id="70222885.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Fonte, Jose" id="70222886.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Cork, Jack" id="70222887.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Fox, Daniel" id="70222888.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Coates, Sebastian" id="70222889.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Lucas," id="70222890.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Enrique, Jose" id="70222891.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Allen, Joe" id="70222892.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Yoshida, Maya" id="70222893.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Hooiveld, Jos" id="70222894.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Skrtel, Martin" id="70222895.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Wisdom, Andre" id="70222896.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Forren, Vegard" id="70222897.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Carragher, Jamie" id="70222898.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Stoke v West Brom" eventid="1025776.18" date="20130316" time="1500" meeting="" venue="">
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1613832.18">
+      <bet had-value="DRAW" name="Draw" id="70191620.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke" id="70191621.18" price="11/8" priceDecimal="2.38" priceUS="137.50"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom" id="70191622.18" price="15/8" priceDecimal="2.88" priceUS="187.50"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1613833.18">
+      <bet had-value="HOME" name="Stoke 1-0" id="70191623.18" price="13/2" priceDecimal="7.50" priceUS="650.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 2-0" id="70191624.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 2-1" id="70191625.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 3-0" id="70191626.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 3-1" id="70191627.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 3-2" id="70191628.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 4-0" id="70191629.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 4-1" id="70191630.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 4-2" id="70191631.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 4-3" id="70191632.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 5-0" id="70191633.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 5-1" id="70191634.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 5-2" id="70191635.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 6-0" id="70191636.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 6-1" id="70191637.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 7-0" id="70191638.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 7-1" id="70191639.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 8-0" id="70191640.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 8-1" id="70191641.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 9-0" id="70191642.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 9-1" id="70191643.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Stoke 10-0" id="70191644.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70191645.18" price="17/2" priceDecimal="9.50" priceUS="850.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70191646.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70191647.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70191648.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70191649.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 1-0" id="70191650.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 2-0" id="70191651.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 2-1" id="70191652.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 3-0" id="70191653.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 3-1" id="70191654.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 3-2" id="70191655.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 4-0" id="70191656.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 4-1" id="70191657.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 4-2" id="70191658.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 4-3" id="70191659.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 5-0" id="70191660.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 5-1" id="70191661.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 5-2" id="70191662.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 6-0" id="70191663.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 6-1" id="70191664.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 7-0" id="70191665.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 7-1" id="70191667.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 8-0" id="70191668.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 8-1" id="70191670.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 9-0" id="70191671.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 9-1" id="70191672.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom 10-0" id="70191673.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1613834.18">
+      <bet had-value="HOME" name="Stoke - Stoke" id="70191678.18" price="11/4" priceDecimal="3.75" priceUS="275.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Stoke - Draw" id="70191679.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Stoke - West Brom" id="70191680.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Stoke" id="70191681.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70191682.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - West Brom" id="70191683.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="West Brom - Stoke" id="70191684.18" price="22/1" priceDecimal="23.00"
+           priceUS="2200.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="West Brom - Draw" id="70191685.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Brom - West Brom" id="70191686.18" price="4/1" priceDecimal="5.00"
+           priceUS="400.00" active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Swansea v Arsenal" eventid="1025777.18" date="20130316" time="1500" meeting="" venue="">
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1613854.18">
+      <bet had-value="DRAW" name="Draw" id="70191995.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea" id="70191996.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal" id="70191997.18" price="11/10" priceDecimal="2.10" priceUS="110.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1613855.18">
+      <bet had-value="HOME" name="Swansea 1-0" id="70191998.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 2-0" id="70191999.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 2-1" id="70192000.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 3-0" id="70192001.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 3-1" id="70192002.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 3-2" id="70192003.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 4-0" id="70192004.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 4-1" id="70192005.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 4-2" id="70192006.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 4-3" id="70192007.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 5-0" id="70192008.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 5-1" id="70192009.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 5-2" id="70192010.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 6-0" id="70192011.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 6-1" id="70192012.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 7-0" id="70192013.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 7-1" id="70192014.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 8-0" id="70192015.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 8-1" id="70192016.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 9-0" id="70192017.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 9-1" id="70192018.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Swansea 10-0" id="70192019.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70192020.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70192021.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70192022.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70192023.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70192024.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 1-0" id="70192025.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 2-0" id="70192026.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 2-1" id="70192027.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 3-0" id="70192028.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 3-1" id="70192029.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 3-2" id="70192030.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 4-0" id="70192031.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 4-1" id="70192032.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 4-2" id="70192033.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 4-3" id="70192034.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 5-0" id="70192035.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 5-1" id="70192036.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 5-2" id="70192037.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 6-0" id="70192038.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 6-1" id="70192039.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 7-0" id="70192040.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 7-1" id="70192041.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 8-0" id="70192042.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 8-1" id="70192043.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 9-0" id="70192044.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 9-1" id="70192045.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal 10-0" id="70192046.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1500" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1613856.18">
+      <bet had-value="HOME" name="Swansea - Swansea" id="70192047.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Swansea - Draw" id="70192048.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Swansea - Arsenal" id="70192049.18" price="25/1" priceDecimal="26.00"
+           priceUS="2500.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Swansea" id="70192050.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70192051.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Arsenal" id="70192052.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Arsenal - Swansea" id="70192053.18" price="33/1" priceDecimal="34.00"
+           priceUS="3300.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Arsenal - Draw" id="70192054.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Arsenal - Arsenal" id="70192055.18" price="9/4" priceDecimal="3.25" priceUS="225.00"
+           active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Man United v Reading" eventid="1025778.18" date="20130316" time="1730" meeting="" venue="">
+    <bettype bet-start-date="20130316" bet-start-time="1730" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1613876.18">
+      <bet had-value="DRAW" name="Draw" id="70192346.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United" id="70192347.18" price="1/7" priceDecimal="1.14" priceUS="-14.29"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading" id="70192348.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1730" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1613877.18">
+      <bet had-value="HOME" name="Man United 1-0" id="70192349.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 2-0" id="70192350.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 2-1" id="70192351.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 3-0" id="70192352.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 3-1" id="70192353.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 3-2" id="70192354.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 4-0" id="70192355.18" price="17/2" priceDecimal="9.50" priceUS="850.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 4-1" id="70192356.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 4-2" id="70192357.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 4-3" id="70192358.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 5-0" id="70192359.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 5-1" id="70192360.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 5-2" id="70192361.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 6-0" id="70192362.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 6-1" id="70192363.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 7-0" id="70192364.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 7-1" id="70192365.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 8-0" id="70192366.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 8-1" id="70192367.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 9-0" id="70192368.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 9-1" id="70192369.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Man United 10-0" id="70192370.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70192371.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70192372.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70192373.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70192374.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70192375.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 1-0" id="70192376.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 2-0" id="70192377.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 2-1" id="70192378.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 3-0" id="70192379.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 3-1" id="70192380.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 3-2" id="70192381.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 4-0" id="70192382.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 4-1" id="70192383.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 4-2" id="70192384.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 4-3" id="70192385.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 5-0" id="70192386.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 5-1" id="70192387.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 5-2" id="70192388.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 6-0" id="70192389.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 6-1" id="70192390.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 7-0" id="70192391.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 7-1" id="70192392.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 8-0" id="70192393.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 8-1" id="70192394.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 9-0" id="70192395.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 9-1" id="70192396.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading 10-0" id="70192397.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130316" bet-start-time="1730" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1613878.18">
+      <bet had-value="HOME" name="Man United - Man United" id="70192398.18" price="2/5" priceDecimal="1.40"
+           priceUS="-40.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Man United - Draw" id="70192399.18" price="28/1" priceDecimal="29.00"
+           priceUS="2800.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Man United - Reading" id="70192400.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Man United" id="70192401.18" price="3/1" priceDecimal="4.00" priceUS="300.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70192402.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Reading" id="70192403.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Reading - Man United" id="70192404.18" price="25/1" priceDecimal="26.00"
+           priceUS="2500.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Reading - Draw" id="70192405.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Reading - Reading" id="70192406.18" price="28/1" priceDecimal="29.00"
+           priceUS="2800.00" active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Sunderland v Norwich" eventid="1026121.18" date="20130317" time="1330" meeting="" venue="">
+    <bettype bet-start-date="20130317" bet-start-time="1330" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1614973.18">
+      <bet had-value="DRAW" name="Draw" id="70214567.18" price="12/5" priceDecimal="3.40" priceUS="240.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland" id="70214568.18" price="Evs" priceDecimal="Evs" priceUS="Evs"/>
+      <bet had-value="AWAY" name="Norwich" id="70214569.18" price="13/5" priceDecimal="3.60" priceUS="260.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1330" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1614974.18">
+      <bet had-value="HOME" name="Sunderland 1-0" id="70214570.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 2-0" id="70214571.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 2-1" id="70214572.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 3-0" id="70214573.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 3-1" id="70214574.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 3-2" id="70214575.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 4-0" id="70214576.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 4-1" id="70214577.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 4-2" id="70214578.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 4-3" id="70214579.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 5-0" id="70214580.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 5-1" id="70214581.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 5-2" id="70214582.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 6-0" id="70214583.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 6-1" id="70214584.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 7-0" id="70214585.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 7-1" id="70214586.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 8-0" id="70214587.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 8-1" id="70214588.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 9-0" id="70214589.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 9-1" id="70214590.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Sunderland 10-0" id="70214591.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70214592.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70214593.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70214594.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70214595.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70214596.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 1-0" id="70214597.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 2-0" id="70214598.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 2-1" id="70214599.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 3-0" id="70214600.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 3-1" id="70214601.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 3-2" id="70214602.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 4-0" id="70214603.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 4-1" id="70214604.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 4-2" id="70214605.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 4-3" id="70214606.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 5-0" id="70214607.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 5-1" id="70214608.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 5-2" id="70214609.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 6-0" id="70214610.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 6-1" id="70214611.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 7-0" id="70214612.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 7-1" id="70214613.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 8-0" id="70214614.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 8-1" id="70214615.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 9-0" id="70214616.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 9-1" id="70214617.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich 10-0" id="70214618.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1330" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1614975.18">
+      <bet had-value="HOME" name="Sunderland - Sunderland" id="70214619.18" price="11/5" priceDecimal="3.20"
+           priceUS="220.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Sunderland - Draw" id="70214620.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+      <bet had-value="AWAY" name="Sunderland - Norwich" id="70214621.18" price="40/1" priceDecimal="41.00"
+           priceUS="4000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Sunderland" id="70214622.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70214623.18" price="4/1" priceDecimal="5.00" priceUS="400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Norwich" id="70214624.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Norwich - Sunderland" id="70214625.18" price="25/1" priceDecimal="26.00"
+           priceUS="2500.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Norwich - Draw" id="70214626.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Norwich - Norwich" id="70214627.18" price="5/1" priceDecimal="6.00" priceUS="500.00"
+           active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Tottenham v Fulham" eventid="1026125.18" date="20130317" time="1500" meeting="" venue="">
+    <bettype bet-start-date="20130317" bet-start-time="1500" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1615001.18">
+      <bet had-value="DRAW" name="Draw" id="70214871.18" price="3/1" priceDecimal="4.00" priceUS="300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham" id="70214872.18" price="1/2" priceDecimal="1.50" priceUS="-50.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham" id="70214873.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1500" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1615002.18">
+      <bet had-value="HOME" name="Tottenham 1-0" id="70214874.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 2-0" id="70214875.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 2-1" id="70214876.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 3-0" id="70214877.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 3-1" id="70214878.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 3-2" id="70214879.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 4-0" id="70214880.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 4-1" id="70214881.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 4-2" id="70214882.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 4-3" id="70214883.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 5-0" id="70214884.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 5-1" id="70214885.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 5-2" id="70214886.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 6-0" id="70214887.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 6-1" id="70214888.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 7-0" id="70214889.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 7-1" id="70214890.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 8-0" id="70214891.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 8-1" id="70214892.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 9-0" id="70214893.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 9-1" id="70214894.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Tottenham 10-0" id="70214895.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70214896.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70214897.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70214898.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70214899.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70214900.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 1-0" id="70214901.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 2-0" id="70214902.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 2-1" id="70214903.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 3-0" id="70214904.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 3-1" id="70214905.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 3-2" id="70214906.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 4-0" id="70214907.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 4-1" id="70214908.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 4-2" id="70214909.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 4-3" id="70214910.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 5-0" id="70214911.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 5-1" id="70214912.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 5-2" id="70214913.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 6-0" id="70214914.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 6-1" id="70214915.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 7-0" id="70214916.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 7-1" id="70214917.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 8-0" id="70214918.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 8-1" id="70214919.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 9-0" id="70214920.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 9-1" id="70214921.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham 10-0" id="70214922.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1500" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1615003.18">
+      <bet had-value="HOME" name="Tottenham - Tottenham" id="70214923.18" price="11/10" priceDecimal="2.10"
+           priceUS="110.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Tottenham - Draw" id="70214924.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Tottenham - Fulham" id="70214925.18" price="40/1" priceDecimal="41.00"
+           priceUS="4000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Tottenham" id="70214926.18" price="10/3" priceDecimal="4.33" priceUS="333.33"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70214927.18" price="6/1" priceDecimal="7.00" priceUS="600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Fulham" id="70214928.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Fulham - Tottenham" id="70214929.18" price="22/1" priceDecimal="23.00"
+           priceUS="2200.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Fulham - Draw" id="70214930.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Fulham - Fulham" id="70214931.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Chelsea v West Ham" eventid="1026128.18" date="20130317" time="1600" meeting="" venue="">
+    <bettype bet-start-date="20130317" bet-start-time="1600" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1615023.18">
+      <bet had-value="DRAW" name="Draw" id="70215229.18" price="7/2" priceDecimal="4.50" priceUS="350.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea" id="70215230.18" price="4/11" priceDecimal="1.36" priceUS="-36.36"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham" id="70215231.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1600" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1615024.18">
+      <bet had-value="HOME" name="Chelsea 1-0" id="70215232.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 2-0" id="70215233.18" price="13/2" priceDecimal="7.50" priceUS="650.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 2-1" id="70215234.18" price="15/2" priceDecimal="8.50" priceUS="750.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 3-0" id="70215235.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 3-1" id="70215236.18" price="10/1" priceDecimal="11.00" priceUS="1000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 3-2" id="70215237.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 4-0" id="70215238.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 4-1" id="70215239.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 4-2" id="70215240.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 4-3" id="70215241.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 5-0" id="70215242.18" price="33/1" priceDecimal="34.00" priceUS="3300.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 5-1" id="70215243.18" price="40/1" priceDecimal="41.00" priceUS="4000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 5-2" id="70215244.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 6-0" id="70215245.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 6-1" id="70215246.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 7-0" id="70215247.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 7-1" id="70215248.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 8-0" id="70215249.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 8-1" id="70215250.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 9-0" id="70215251.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 9-1" id="70215252.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Chelsea 10-0" id="70215253.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70215254.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70215255.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70215256.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70215257.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70215258.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 1-0" id="70215259.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 2-0" id="70215260.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 2-1" id="70215261.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 3-0" id="70215262.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 3-1" id="70215263.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 3-2" id="70215264.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 4-0" id="70215265.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 4-1" id="70215266.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 4-2" id="70215267.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 4-3" id="70215268.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 5-0" id="70215269.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 5-1" id="70215270.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 5-2" id="70215271.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 6-0" id="70215272.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 6-1" id="70215273.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 7-0" id="70215274.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 7-1" id="70215275.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 8-0" id="70215276.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 8-1" id="70215277.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 9-0" id="70215278.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 9-1" id="70215279.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham 10-0" id="70215280.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1600" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1615025.18">
+      <bet had-value="HOME" name="Chelsea - Chelsea" id="70215281.18" price="5/6" priceDecimal="1.83" priceUS="-83.33"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Chelsea - Draw" id="70215282.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Chelsea - West Ham" id="70215283.18" price="50/1" priceDecimal="51.00"
+           priceUS="5000.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Chelsea" id="70215284.18" price="10/3" priceDecimal="4.33" priceUS="333.33"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70215285.18" price="7/1" priceDecimal="8.00" priceUS="700.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - West Ham" id="70215286.18" price="18/1" priceDecimal="19.00" priceUS="1800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="West Ham - Chelsea" id="70215287.18" price="22/1" priceDecimal="23.00"
+           priceUS="2200.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="West Ham - Draw" id="70215288.18" price="20/1" priceDecimal="21.00" priceUS="2000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="West Ham - West Ham" id="70215289.18" price="14/1" priceDecimal="15.00"
+           priceUS="1400.00" active-price-types="CP"/>
+    </bettype>
+  </event>
+  <event name="Wigan v Newcastle" eventid="1026129.18" date="20130317" time="1600" meeting="" venue="">
+    <bettype bet-start-date="20130317" bet-start-time="1600" suspended="false" name="Match Betting" inrunning="0"
+             bettypeid="1615045.18">
+      <bet had-value="DRAW" name="Draw" id="70215566.18" price="12/5" priceDecimal="3.40" priceUS="240.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan" id="70215567.18" price="5/4" priceDecimal="2.25" priceUS="125.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle" id="70215568.18" price="2/1" priceDecimal="3.00" priceUS="200.00"
+           active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1600" suspended="false" name="Correct Score" inrunning="0"
+             bettypeid="1615046.18">
+      <bet had-value="HOME" name="Wigan 1-0" id="70215569.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 2-0" id="70215570.18" price="11/1" priceDecimal="12.00" priceUS="1100.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 2-1" id="70215571.18" price="8/1" priceDecimal="9.00" priceUS="800.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 3-0" id="70215572.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 3-1" id="70215573.18" price="16/1" priceDecimal="17.00" priceUS="1600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 3-2" id="70215574.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 4-0" id="70215575.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 4-1" id="70215576.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 4-2" id="70215577.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 4-3" id="70215578.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 5-0" id="70215579.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 5-1" id="70215580.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 5-2" id="70215581.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 6-0" id="70215582.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 6-1" id="70215583.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 7-0" id="70215584.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 7-1" id="70215585.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 8-0" id="70215586.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 8-1" id="70215587.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 9-0" id="70215588.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 9-1" id="70215589.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Wigan 10-0" id="70215590.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 0-0" id="70215591.18" price="12/1" priceDecimal="13.00" priceUS="1200.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 1-1" id="70215592.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 2-2" id="70215593.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 3-3" id="70215594.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw 4-4" id="70215595.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 1-0" id="70215596.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 2-0" id="70215597.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 2-1" id="70215598.18" price="9/1" priceDecimal="10.00" priceUS="900.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 3-0" id="70215599.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 3-1" id="70215600.18" price="28/1" priceDecimal="29.00" priceUS="2800.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 3-2" id="70215601.18" price="25/1" priceDecimal="26.00" priceUS="2500.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 4-0" id="70215602.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 4-1" id="70215603.18" price="50/1" priceDecimal="51.00" priceUS="5000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 4-2" id="70215604.18" price="66/1" priceDecimal="67.00" priceUS="6600.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 4-3" id="70215605.18" price="80/1" priceDecimal="81.00" priceUS="8000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 5-0" id="70215606.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 5-1" id="70215607.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 5-2" id="70215608.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 6-0" id="70215609.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 6-1" id="70215610.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 7-0" id="70215611.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 7-1" id="70215612.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 8-0" id="70215613.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 8-1" id="70215614.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 9-0" id="70215615.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 9-1" id="70215616.18" price="100/1" priceDecimal="101.00" priceUS="10000.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle 10-0" id="70215617.18" price="100/1" priceDecimal="101.00"
+           priceUS="10000.00" active-price-types="CP"/>
+    </bettype>
+    <bettype bet-start-date="20130317" bet-start-time="1600" suspended="false" name="Double Result" inrunning="0"
+             bettypeid="1615047.18">
+      <bet had-value="HOME" name="Wigan - Wigan" id="70215618.18" price="5/2" priceDecimal="3.50" priceUS="250.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Wigan - Draw" id="70215619.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Wigan - Newcastle" id="70215620.18" price="25/1" priceDecimal="26.00"
+           priceUS="2500.00" active-price-types="CP"/>
+      <bet had-value="HOME" name="Draw - Wigan" id="70215621.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="DRAW" name="Draw - Draw" id="70215622.18" price="9/2" priceDecimal="5.50" priceUS="450.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Draw - Newcastle" id="70215623.18" price="11/2" priceDecimal="6.50" priceUS="550.00"
+           active-price-types="CP"/>
+      <bet had-value="HOME" name="Newcastle - Wigan" id="70215624.18" price="20/1" priceDecimal="21.00"
+           priceUS="2000.00" active-price-types="CP"/>
+      <bet had-value="DRAW" name="Newcastle - Draw" id="70215625.18" price="14/1" priceDecimal="15.00" priceUS="1400.00"
+           active-price-types="CP"/>
+      <bet had-value="AWAY" name="Newcastle - Newcastle" id="70215626.18" price="4/1" priceDecimal="5.00"
+           priceUS="400.00" active-price-types="CP"/>
+    </bettype>
+  </event>
+</category>
