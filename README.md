@@ -1,12 +1,12 @@
 # TweetPrices
 
-TODO: Write a gem description
+Scans data sources and tweets the best prices.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'tweet_prices'
+    gem 'tweet_prices', :git => "git://github.com/rudedoc/tweet_prices.git"
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install tweet_prices
+    $ gem install tweet_prices, :git => "git://github.com/rudedoc/tweet_prices.git"
 
 ## Usage
 
