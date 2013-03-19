@@ -1,5 +1,7 @@
 # TweetPrices
 
+[![Code Climate](https://codeclimate.com/github/rudedoc/tweet_prices.png)](https://codeclimate.com/github/rudedoc/tweet_prices)
+
 Scans data sources and tweets the best prices.
 
 ## Installation
