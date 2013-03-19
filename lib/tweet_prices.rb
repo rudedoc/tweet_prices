@@ -2,6 +2,16 @@ module TweetPrices
   VERSION = "0.0.1"
   require 'nokogiri'
   require 'open-uri'
+
+  class Tweeter
+
+    def initialize(comparison_set)
+      puts comparison_set.hashed_market_quotes
+
+    end
+
+  end
+
   class XML
     attr_reader :markets
 
@@ -138,9 +148,9 @@ module TweetPrices
       @market_quotes.each do |quote|
         quote.competitors.each do |competitor|
           if comparison_hash[competitor.name] == nil
-            comparison_hash[competitor.name] = [[quote.bookmaker, competitor.price_decimal]]
+            comparison_hash[competitor.name] = [[quote.bookmaker, competitor.price_decimal, quote]]
           else
-            comparison_hash[competitor.name] << [quote.bookmaker, competitor.price_decimal]
+            comparison_hash[competitor.name] << [quote.bookmaker, competitor.price_decimal, quote]
           end
         end
       end

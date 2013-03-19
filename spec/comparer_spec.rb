@@ -56,7 +56,6 @@ module TweetPrices
       it "should sort bookmaker quotes" do
         @comparison_set.hashed_market_quotes["man city"].last.should include("BY")
       end
-
     end
   end
 end

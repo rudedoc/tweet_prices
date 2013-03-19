@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/tweeter_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/comparer_spec.rb" afterPath="$PROJECT_DIR$/spec/comparer_spec.rb" />
     </list>
     <ignored path="tweet_prices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,10 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="tweeter_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/tweeter_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="75" selection-start="201" selection-end="201" vertical-scroll-proportion="0.28368795">
+            <state line="22" column="7" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.39099526">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tweet_prices.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tweet_prices.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="14" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#200#974#0" expanded="false" />
+                <element signature="e#343#968#0" expanded="false" />
+                <element signature="e#978#1632#0" expanded="false" />
+                <element signature="e#1636#1918#0" expanded="false" />
+                <element signature="e#1922#2236#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comparer_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/comparer_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="191" selection-start="2782" selection-end="2782" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,17 +76,18 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/lib/tweet_prices/version.rb" />
-        <option value="$PROJECT_DIR$/lib/tweet_prices.rb" />
-        <option value="$PROJECT_DIR$/spec/comparer_spec.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/spec/comparer_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/tweet_prices.rb" />
+        <option value="$PROJECT_DIR$/spec/tweeter_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="964" />
+    <option name="x" value="967" />
     <option name="y" value="22" />
-    <option name="width" value="714" />
-    <option name="height" value="560" />
+    <option name="width" value="713" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -102,6 +130,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tweet_prices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweet_prices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tweet_prices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,14 +287,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="964" y="22" width="714" height="560" extended-state="0" />
+    <frame x="967" y="22" width="713" height="981" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28293413" sideWeight="0.9978355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28335834" sideWeight="0.99886495" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -320,15 +362,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/tweet_prices.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="46" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#226#851#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/comparer_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="25" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
@@ -366,13 +399,6 @@
         <state line="15" column="7" selection-start="478" selection-end="478" vertical-scroll-proportion="0.2619325" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/comparer_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="514" selection-end="514" vertical-scroll-proportion="0.29925188">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.035460994">
@@ -408,18 +434,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="75" selection-start="201" selection-end="201" vertical-scroll-proportion="0.28368795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/comparer_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="191" selection-start="2782" selection-end="2782" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tweet_prices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="43" selection-start="4148" selection-end="4148" vertical-scroll-proportion="4.29078">
+        <state line="99" column="14" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#226#851#0" expanded="false" />
+            <element signature="e#200#974#0" expanded="false" />
+            <element signature="e#343#968#0" expanded="false" />
+            <element signature="e#978#1632#0" expanded="false" />
+            <element signature="e#1636#1918#0" expanded="false" />
+            <element signature="e#1922#2236#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/spec/tweeter_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="75" selection-start="201" selection-end="201" vertical-scroll-proportion="0.28368795">
+        <state line="22" column="7" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.39099526">
           <folding />
         </state>
       </provider>
