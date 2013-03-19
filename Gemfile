@@ -6,3 +6,5 @@ gemspec
 gem 'rspec'
 gem 'nokogiri'
 gem 'webmock'
+gem 'pry'
+gem 'simplecov'

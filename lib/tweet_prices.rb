@@ -1,9 +1,7 @@
-require 'tweet_prices/version'
-require 'nokogiri'
-require 'open-uri'
-
 module TweetPrices
-
+  VERSION = "0.0.1"
+  require 'nokogiri'
+  require 'open-uri'
   class XML
     attr_reader :markets
 
@@ -19,7 +17,7 @@ module TweetPrices
         date = event.xpath('bettype').first.xpath("@bet-start-date").text
         time = event.xpath('bettype').first.xpath("@bet-start-time").text
         kick_off_time = Time.parse("#{date}T#{time}")
-        market = Market.new(self.class, kick_off_time)
+        market = Market.new("XML", kick_off_time)
         event.xpath('bettype').first.xpath('bet').each do |bet|
           name = bet.xpath('@name').text.downcase
           price = bet.xpath('@price').text
@@ -32,7 +30,7 @@ module TweetPrices
   end
 
   class OddsChecker
-    attr_accessor :event_list, :uri
+    attr_accessor :event_list
 
     def initialize(url)
       @event_list = parse_events(Nokogiri::HTML(open(url)))
@@ -66,11 +64,18 @@ module TweetPrices
   end
 
   class Competitor
-    attr_accessor :name, :price
+    attr_accessor :name, :price, :price_decimal
 
     def initialize(name, price)
       @name, @price = name, price
+      @price_decimal = decimal_price
     end
+
+    def decimal_price
+      numerator, denominator = @price.split('/')
+      (numerator.to_f / denominator.to_f).round(2)
+    end
+
   end
 
   class Comparer
@@ -78,12 +83,12 @@ module TweetPrices
 
     def initialize(xml, oc)
       @common_events = get_common_events(xml, oc)
-      @comparison_sets = get_comparison_sets
+      @comparison_sets = get_comparison_sets(xml)
     end
 
     private
 
-    def get_comparison_sets
+    def get_comparison_sets(xml)
       comparison_sets = []
       bookies = ["BY", "PP"]
       @common_events.each do |event|
@@ -93,9 +98,14 @@ module TweetPrices
           market = Market.new(bookie)
           html_doc.xpath("//tbody[@id='t1']/tr").each do |competitor|
             competitor_id = competitor.xpath('@data-participant-id').text
-            market.competitors << Competitor.new(competitor.xpath('td[2]').text, competitor.xpath("td[@id='#{competitor_id}_#{bookie}']").text)
+            market.competitors << Competitor.new(competitor.xpath('td[2]').text.downcase, competitor.xpath("td[@id='#{competitor_id}_#{bookie}']").text)
           end
           comparison_set.market_quotes << market
+          xml.markets.each do |xml_market|
+            if (xml_market.competitor_names & market.competitor_names).count == 3
+              comparison_set.market_quotes << xml_market unless comparison_set.market_quotes.collect { |quote| quote.bookmaker }.include?("XML")
+            end
+          end
           comparison_sets << comparison_set
         end
       end
@@ -118,9 +128,33 @@ module TweetPrices
 
   class ComparisonSet
     attr_accessor :market_quotes
+
     def initialize
       @market_quotes = []
     end
-  end
 
+    def hashed_market_quotes
+      comparison_hash = {}
+      @market_quotes.each do |quote|
+        quote.competitors.each do |competitor|
+          if comparison_hash[competitor.name] == nil
+            comparison_hash[competitor.name] = [[quote.bookmaker, competitor.price_decimal]]
+          else
+            comparison_hash[competitor.name] << [quote.bookmaker, competitor.price_decimal]
+          end
+        end
+      end
+      sort_quotes(comparison_hash)
+    end
+
+    private
+
+    def sort_quotes(comparison_hash)
+      sorted_hash = {}
+      comparison_hash.each do |key, value|
+        sorted_hash[key] = value.sort_by { |bookie, price| price }
+      end
+      sorted_hash
+    end
+  end
 end
