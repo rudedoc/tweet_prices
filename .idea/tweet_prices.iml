@@ -4,8 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="OddsConverter (v0.0.6, rbenv: 1.9.3-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.3, rbenv: 1.9.3-p392) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.4, rbenv: 1.9.3-p392) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, rbenv: 1.9.3-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.0.9, rbenv: 1.9.3-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crack (v0.3.2, rbenv: 1.9.3-p392) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.1, rbenv: 1.9.3-p392) [gem]" level="application" />

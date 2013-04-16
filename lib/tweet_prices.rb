@@ -2,15 +2,7 @@ module TweetPrices
   VERSION = "0.0.1"
   require 'nokogiri'
   require 'open-uri'
-
-  class Tweeter
-
-    def initialize(comparison_set)
-      puts comparison_set.hashed_market_quotes
-
-    end
-
-  end
+  BOOKMAKERS = ["BY", "PP"]
 
   class XML
     attr_reader :markets
@@ -21,17 +13,25 @@ module TweetPrices
 
     private
 
+    def parse_event_to_market(event)
+      date = event.xpath('bettype').first.xpath("@bet-start-date").text
+      time = event.xpath('bettype').first.xpath("@bet-start-time").text
+      kick_off_time = Time.parse("#{date}T#{time}")
+      Market.new("XML", kick_off_time)
+    end
+
+    def parse_bet_to_competitor(bet)
+      name = bet.xpath('@name').text.downcase
+      price = bet.xpath('@price').text
+      Competitor.new(name, price)
+    end
+
     def parse_markets(data)
       markets = []
       data.xpath('//event').each do |event|
-        date = event.xpath('bettype').first.xpath("@bet-start-date").text
-        time = event.xpath('bettype').first.xpath("@bet-start-time").text
-        kick_off_time = Time.parse("#{date}T#{time}")
-        market = Market.new("XML", kick_off_time)
+        market = parse_event_to_market(event)
         event.xpath('bettype').first.xpath('bet').each do |bet|
-          name = bet.xpath('@name').text.downcase
-          price = bet.xpath('@price').text
-          market.competitors << Competitor.new(name, price)
+          market.competitors << parse_bet_to_competitor(bet)
         end
         markets << market
       end
@@ -42,10 +42,15 @@ module TweetPrices
   class OddsChecker
     attr_accessor :event_list
 
+    HOST_URL = "http://www.oddschecker.com"
+
+
     def initialize(url)
       @event_list = parse_events(Nokogiri::HTML(open(url)))
     end
 
+
+    # TODO: Need to extract Event to it's own OCEvent object!
     def parse_events(data)
       events = []
       data.xpath("//tr[@class='match-on']").each do |event|
@@ -54,7 +59,7 @@ module TweetPrices
         competitors << event.xpath('td[3]/p/span[2]').text.downcase
         competitors << event.xpath('td[4]/p/span[2]').text.downcase
         url = event.xpath('td[5]/a/@href').text
-        events << {:competitors => competitors, :url => ("http://www.oddschecker.com" + url)}
+        events << {:competitors => competitors, :url => (HOST_URL + url)}
       end
       events
     end
@@ -85,7 +90,6 @@ module TweetPrices
       numerator, denominator = @price.split('/')
       (numerator.to_f / denominator.to_f).round(2)
     end
-
   end
 
   class Comparer
@@ -98,25 +102,41 @@ module TweetPrices
 
     private
 
+    def build_competitor(competitor_xml, bookie)
+      competitor_id = competitor_xml.xpath('@data-participant-id').text
+      price = competitor_xml.xpath("td[@id='#{competitor_id}_#{bookie}']").text
+      name = competitor_xml.xpath('td[2]').text.downcase
+      Competitor.new(name, price)
+    end
+
+    def parse_market(html_doc, bookie)
+      market = Market.new(bookie)
+      html_doc.xpath("//tbody[@id='t1']/tr").each do |competitor_xml|
+        competitor = build_competitor(competitor_xml, bookie)
+        market.competitors << competitor
+      end
+      market
+    end
+
+    def build_comparison_set(html_doc, xml, bookie)
+      comparison_set = ComparisonSet.new
+      market = parse_market(html_doc, bookie)
+      comparison_set.market_quotes << market
+
+      xml.markets.each do |xml_market|
+        if (xml_market.competitor_names & market.competitor_names).count == 3
+          comparison_set.market_quotes << xml_market unless comparison_set.market_quotes.collect { |quote| quote.bookmaker }.include?("XML")
+        end
+      end
+      comparison_set
+    end
+
     def get_comparison_sets(xml)
       comparison_sets = []
-      bookies = ["BY", "PP"]
       @common_events.each do |event|
         html_doc = Nokogiri::HTML((open event[:url]))
-        comparison_set = ComparisonSet.new
-        bookies.each do |bookie|
-          market = Market.new(bookie)
-          html_doc.xpath("//tbody[@id='t1']/tr").each do |competitor|
-            competitor_id = competitor.xpath('@data-participant-id').text
-            market.competitors << Competitor.new(competitor.xpath('td[2]').text.downcase, competitor.xpath("td[@id='#{competitor_id}_#{bookie}']").text)
-          end
-          comparison_set.market_quotes << market
-          xml.markets.each do |xml_market|
-            if (xml_market.competitor_names & market.competitor_names).count == 3
-              comparison_set.market_quotes << xml_market unless comparison_set.market_quotes.collect { |quote| quote.bookmaker }.include?("XML")
-            end
-          end
-          comparison_sets << comparison_set
+        BOOKMAKERS.each do |bookie|
+          comparison_sets << build_comparison_set(html_doc, xml, bookie)
         end
       end
       comparison_sets
