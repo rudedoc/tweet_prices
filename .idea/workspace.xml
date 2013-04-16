@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/tweeter_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tweet_prices.iml" afterPath="$PROJECT_DIR$/.idea/tweet_prices.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweet_prices.gemspec" afterPath="$PROJECT_DIR$/tweet_prices.gemspec" />
     </list>
     <ignored path="tweet_prices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +24,7 @@
       <file leaf-file-name="tweet_prices.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tweet_prices.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="21" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.07110092">
+            <state line="156" column="45" selection-start="4472" selection-end="4472" vertical-scroll-proportion="2.6490827">
               <folding>
                 <element signature="e#152#236#0" expanded="false" />
               </folding>
@@ -443,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tweet_prices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="21" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.07110092">
+        <state line="156" column="45" selection-start="4472" selection-end="4472" vertical-scroll-proportion="2.6490827">
           <folding>
             <element signature="e#152#236#0" expanded="false" />
           </folding>

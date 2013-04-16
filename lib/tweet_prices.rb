@@ -96,8 +96,10 @@ module TweetPrices
     attr_reader :common_events, :comparison_sets
 
     def initialize(xml, oc)
-      @common_events = get_common_events(xml, oc)
-      @comparison_sets = get_comparison_sets(xml)
+      @xml = xml
+      @oc = oc
+      @common_events = get_common_events
+      @comparison_sets = get_comparison_sets
     end
 
     private
@@ -118,34 +120,37 @@ module TweetPrices
       market
     end
 
-    def build_comparison_set(html_doc, xml, bookie)
+    def matching_competitors?(xml_market, market)
+      (xml_market.competitor_names & market.competitor_names).count == 3
+    end
+
+    def build_comparison_set(html_doc, bookie)
       comparison_set = ComparisonSet.new
       market = parse_market(html_doc, bookie)
-      comparison_set.market_quotes << market
-
-      xml.markets.each do |xml_market|
-        if (xml_market.competitor_names & market.competitor_names).count == 3
+      comparison_set.market_quotes << parse_market(html_doc, bookie)
+      @xml.markets.each do |xml_market|
+        if matching_competitors?(xml_market, market)
           comparison_set.market_quotes << xml_market unless comparison_set.market_quotes.collect { |quote| quote.bookmaker }.include?("XML")
         end
       end
       comparison_set
     end
 
-    def get_comparison_sets(xml)
+    def get_comparison_sets
       comparison_sets = []
       @common_events.each do |event|
         html_doc = Nokogiri::HTML((open event[:url]))
         BOOKMAKERS.each do |bookie|
-          comparison_sets << build_comparison_set(html_doc, xml, bookie)
+          comparison_sets << build_comparison_set(html_doc, bookie)
         end
       end
       comparison_sets
     end
 
-    def get_common_events(xml, oc)
-      xml_event_list = xml.markets.collect { |market| market.competitors.collect { |competitor| competitor.name } }
+    def get_common_events
+      xml_event_list = @xml.markets.collect { |market| market.competitors.collect { |competitor| competitor.name } }
       common_events = []
-      oc.event_list.each do |event|
+      @oc.event_list.each do |event|
         xml_event_list.each do |market|
           if (event[:competitors] & market).count == 3
             common_events << event
