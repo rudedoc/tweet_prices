@@ -4,35 +4,11 @@ module TweetPrices
   require 'open-uri'
   BOOKMAKERS = ["BY", "PP"]
 
-  require 'xml_client'
+  require 'tweet_prices/xml_client'
+  require 'tweet_prices/oddschecker_client'
 
 
 
-  class OddsChecker
-    attr_accessor :event_list
-
-    HOST_URL = "http://www.oddschecker.com"
-
-
-    def initialize(url)
-      @event_list = parse_events(Nokogiri::HTML(open(url)))
-    end
-
-
-    # TODO: Need to extract Event to it's own OCEvent object!
-    def parse_events(data)
-      events = []
-      data.xpath("//tr[@class='match-on']").each do |event|
-        competitors = []
-        competitors << event.xpath('td[2]/p/span[2]').text.downcase
-        competitors << event.xpath('td[3]/p/span[2]').text.downcase
-        competitors << event.xpath('td[4]/p/span[2]').text.downcase
-        url = event.xpath('td[5]/a/@href').text
-        events << {:competitors => competitors, :url => (HOST_URL + url)}
-      end
-      events
-    end
-  end
 
   class Market
     attr_accessor :competitors, :bookmaker
@@ -119,7 +95,7 @@ module TweetPrices
     def get_common_events
       xml_event_list = @xml.markets.collect { |market| market.competitors.collect { |competitor| competitor.name } }
       common_events = []
-      @oc.event_list.each do |event|
+      @oc.events.each do |event|
         xml_event_list.each do |market|
           if (event[:competitors] & market).count == 3
             common_events << event

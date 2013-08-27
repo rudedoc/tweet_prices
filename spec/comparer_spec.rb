@@ -15,7 +15,7 @@ module TweetPrices
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/chelsea-v-west-ham/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Chelsea-v-West-Ham.html'), :headers => {})
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/wigan-v-newcastle/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Wigan-v-Newcastle.html'), :headers => {})
         xml = XmlClient.new(XML_URL)
-        oc = OddsChecker.new(OC_URL)
+        oc = OddsCheckerClient.new(OC_URL)
         @comparer = Comparer.new(xml, oc)
       end
 
@@ -41,7 +41,7 @@ module TweetPrices
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/chelsea-v-west-ham/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Chelsea-v-West-Ham.html'), :headers => {})
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/wigan-v-newcastle/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Wigan-v-Newcastle.html'), :headers => {})
         xml = XmlClient.new(XML_URL)
-        oc = OddsChecker.new(OC_URL)
+        oc = OddsCheckerClient.new(OC_URL)
         @comparison_set = Comparer.new(xml, oc).comparison_sets.first
       end
 

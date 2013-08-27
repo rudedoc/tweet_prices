@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 module TweetPrices
-
   describe XmlClient do
     before(:all) do
       stub_request(:get, "http://www.xml.com/premier-league").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/football-premier-league.XML'), :headers => {})
