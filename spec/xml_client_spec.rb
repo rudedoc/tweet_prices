@@ -9,7 +9,7 @@ module TweetPrices
 
     describe "gets data from the XML feed - " do
 
-      it "cycles through the markets in the XML and creates an array of Markets" do
+      it "creates an array of Markets" do
         @xml.markets.count.should == 10
       end
 

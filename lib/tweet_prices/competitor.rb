@@ -1,0 +1,15 @@
+module TweetPrices
+  class Competitor
+    attr_accessor :name, :price, :price_decimal
+
+    def initialize(name, price)
+      @name, @price = name, price
+      @price_decimal = decimal_price
+    end
+
+    def decimal_price
+      numerator, denominator = @price.split('/')
+      (numerator.to_f / denominator.to_f).round(2)
+    end
+  end
+end
