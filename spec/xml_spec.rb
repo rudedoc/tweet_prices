@@ -2,10 +2,10 @@ require 'spec_helper'
 
 module TweetPrices
 
-  describe XML do
+  describe XmlClient do
     before(:all) do
       stub_request(:get, "http://www.xml.com/premier-league").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/football-premier-league.XML'), :headers => {})
-      @xml = XML.new(XML_URL)
+      @xml = XmlClient.new(XML_URL)
     end
 
     describe "gets data from the XML feed - " do
