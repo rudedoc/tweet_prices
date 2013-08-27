@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = TweetPrices::VERSION
   gem.authors       = ["rudedoc"]
   gem.email         = ["finlay.mark@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Scans data sources and tweets the top price.}
+  gem.summary       = %q{Scans data sources and tweets the top price.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
