@@ -8,7 +8,7 @@ module TweetPrices
 
     private
 
-    def parse_event(event)
+    def parse_market(event)
       date = event.xpath('bettype').first.xpath("@bet-start-date").text
       time = event.xpath('bettype').first.xpath("@bet-start-time").text
       kick_off_time = Time.parse("#{date}T#{time}")
@@ -18,10 +18,8 @@ module TweetPrices
     def parse_markets(data)
       markets = []
       data.xpath('//event').each do |event|
-        market = parse_event(event)
-        event.xpath('bettype').first.xpath('bet').each do |bet|
-          market.competitors << parse_competitor(bet)
-        end
+        market = parse_market(event)
+        event.xpath('bettype').first.xpath('bet').each { |bet| market.competitors << parse_competitor(bet) }
         markets << market
       end
       markets
