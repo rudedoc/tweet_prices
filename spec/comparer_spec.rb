@@ -14,8 +14,8 @@ module TweetPrices
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/tottenham-v-fulham/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Tottenham-v-Fulham.html'), :headers => {})
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/chelsea-v-west-ham/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Chelsea-v-West-Ham.html'), :headers => {})
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/wigan-v-newcastle/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Wigan-v-Newcastle.html'), :headers => {})
-        xml = XmlClient.new(XML_URL)
-        oc = OddsCheckerClient.new(OC_URL)
+        xml = XmlClient.new({:url => XML_URL})
+        oc = OddsCheckerClient.new({:url => OC_URL})
         @comparer = Comparer.new(xml, oc)
       end
 
@@ -40,13 +40,13 @@ module TweetPrices
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/tottenham-v-fulham/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Tottenham-v-Fulham.html'), :headers => {})
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/chelsea-v-west-ham/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Chelsea-v-West-Ham.html'), :headers => {})
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/wigan-v-newcastle/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Wigan-v-Newcastle.html'), :headers => {})
-        xml = XmlClient.new(XML_URL)
-        oc = OddsCheckerClient.new(OC_URL)
+        xml = XmlClient.new({:url => XML_URL})
+        oc = OddsCheckerClient.new({:url => OC_URL})
         @comparison_set = Comparer.new(xml, oc).comparison_sets.first
       end
 
       it "should have an array of Markets" do
-        @comparison_set.market_quotes.first.should be_a_kind_of(Market)
+        @comparison_set.market_quotes.first.should be_a_kind_of(QuotedMarket)
       end
 
       it "should have a hash of markets with competitors for keys" do

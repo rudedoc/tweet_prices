@@ -1,31 +1,35 @@
 module TweetPrices
   class XmlClient
-    attr_reader :markets
+    attr_reader :markets, :url, :source_name
 
-    def initialize(url)
-      @markets = parse_markets(Nokogiri::XML(open(url)))
+    def initialize(options)
+      @source_name = options[:@source_name]
+      @url = options[:url]
+      @markets = create_markets(Nokogiri::XML(open(@url)))
     end
 
     private
 
-    def parse_market(event)
-      date = event.xpath('bettype').first.xpath("@bet-start-date").text
-      time = event.xpath('bettype').first.xpath("@bet-start-time").text
-      kick_off_time = Time.parse("#{date}T#{time}")
-      Market.new("XML", kick_off_time)
-    end
-
-    def parse_markets(data)
-      markets = []
-      data.xpath('//event').each do |event|
-        market = parse_market(event)
-        event.xpath('bettype').first.xpath('bet').each { |bet| market.competitors << parse_competitor(bet) }
-        markets << market
+    def create_markets(data)
+      data.xpath('//event').map do |event|
+        market = create_market(event)
+        market.competitors = market_competitors(event)
+        market
       end
-      markets
     end
 
-    def parse_competitor(bet)
+    def create_market(event)
+      date = event.xpath('bettype[1]/@bet-start-date').text
+      time = event.xpath('bettype[1]/@bet-start-time').text
+      kick_off_time = Time.parse("#{date}T#{time}")
+      QuotedMarket.new(source_name, kick_off_time) # change "XML" to source_identifier option
+    end
+
+    def market_competitors(event)
+      event.xpath('bettype[0]/bet').collect { |bet| create_competitor(bet) }
+    end
+
+    def create_competitor(bet)
       name = bet.xpath('@name').text.downcase
       price = bet.xpath('@price').text
       Competitor.new(name, price)

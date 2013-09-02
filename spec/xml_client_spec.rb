@@ -6,17 +6,15 @@ module TweetPrices
       stub_request(:get, "http://www.xml.com/premier-league").to_return(:status => 200,
                                                                         :body => MockPage.page_success('premier-league-data/football-premier-league.XML'),
                                                                         :headers => {})
-      @xml = XmlClient.new(XML_URL)
+      @xml = XmlClient.new({:url => "http://www.xml.com/premier-league"})
     end
-
 
     it "creates an array of Markets" do
-      @xml.markets.each { |market| market.should be_a_kind_of(TweetPrices::Market) }
+      @xml.markets.each { |market| market.should be_a_kind_of(TweetPrices::QuotedMarket) }
     end
 
-    it "markets has competitors" do
+    its "markets has competitors" do
       @xml.markets.each { |market| market.competitors.each { |competitor| competitor.should be_a_kind_of(TweetPrices::Competitor) } }
     end
-
   end
 end

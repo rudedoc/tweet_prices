@@ -1,5 +1,5 @@
 module TweetPrices
-  class Market
+  class QuotedMarket
     attr_accessor :competitors, :bookmaker
 
     def initialize(bookmaker, kick_off=nil)

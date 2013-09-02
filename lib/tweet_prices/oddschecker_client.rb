@@ -1,27 +1,34 @@
 module TweetPrices
   class OddsCheckerClient
-    attr_accessor :events
+    attr_accessor :markets, :market_urls
 
     HOST_URL = "http://www.oddschecker.com"
 
-    def initialize(url)
-      parse_events(Nokogiri::HTML(open(url)))
+    def initialize(options)
+      data = html_doc(options[:url])
+      @market_urls = parse_urls(data)
+      @markets = []
     end
 
     private
 
-    def parse_events(data)
-      @events = []
-      data.xpath("//tr[@class='match-on']").each do |event|
-        competitors = []
-        competitors << event.xpath('td[2]/p/span[2]').text.downcase
-        competitors << event.xpath('td[3]/p/span[2]').text.downcase
-        competitors << event.xpath('td[4]/p/span[2]').text.downcase
-        url = event.xpath('td[5]/a/@href').text
-        @events << {:competitors => competitors, :url => (HOST_URL + url)}
-      end
-      @events
+    # TODO: rescue from HTTP exceptions
+    def html_doc(market_url)
+      Nokogiri::HTML(open(market_url))
     end
+
+    # TODO: should follow same pattern as XML Client
+    def parse_urls(data)
+      data.xpath("//tr[@class='match-on']").collect { |event| event.xpath('td[5]/a/@href').text }
+    end
+
+    def get_market_docs
+      market_urls.collect { |market_url| html_doc(HOST_URL + market_url) }
+    end
+
+
+
+
   end
 
 end
