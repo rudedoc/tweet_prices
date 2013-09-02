@@ -1,16 +1,40 @@
 module TweetPrices
   class OddsCheckerClient
-    attr_accessor :markets, :market_urls
+    attr_accessor :url, :markets
 
     HOST_URL = "http://www.oddschecker.com"
+    BOOKMAKERS = ["BY", "PP"]
 
     def initialize(options)
-      data = html_doc(options[:url])
-      @market_urls = parse_urls(data)
-      @markets = []
+      @url = options[:url]
+      top_level_doc = html_doc(@url)
+      market_urls = get_market_urls(top_level_doc)
+      @markets = create_markets(market_urls)
     end
 
     private
+
+    def create_markets(market_urls)
+      market_urls.collect do |market_url|
+        create_market(html_doc(market_url), BOOKMAKERS[0])
+      end
+    end
+
+    def create_market(html_doc, bookmaker)
+      market = QuotedMarket.new(bookmaker)
+      html_doc.xpath("//tbody[@id='t1']/tr").each do |competitor_xml|
+        market.competitors << create_competitor(competitor_xml, bookmaker)
+      end
+      market
+    end
+
+    def create_competitor(competitor_xml, bookmaker)
+      competitor_id = competitor_xml.xpath('@data-participant-id').text
+      price = competitor_xml.xpath("td[@id='#{competitor_id}_#{bookmaker}']").text
+      name = competitor_xml.xpath('td[2]').text.downcase
+      Competitor.new(name, price)
+    end
+
 
     # TODO: rescue from HTTP exceptions
     def html_doc(market_url)
@@ -18,16 +42,11 @@ module TweetPrices
     end
 
     # TODO: should follow same pattern as XML Client
-    def parse_urls(data)
-      data.xpath("//tr[@class='match-on']").collect { |event| event.xpath('td[5]/a/@href').text }
+    def get_market_urls(html_doc)
+      html_doc.xpath("//tr[@class='match-on']").collect do |market|
+        HOST_URL + market.xpath('td[5]/a/@href').text
+      end
     end
-
-    def get_market_docs
-      market_urls.collect { |market_url| html_doc(HOST_URL + market_url) }
-    end
-
-
-
 
   end
 

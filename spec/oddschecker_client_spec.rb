@@ -47,18 +47,24 @@ module TweetPrices
           to_return(:status => 200,
                     :body => MockPage.page_success("premier-league-data/Wigan-v-Newcastle.html"),
                     :headers => {})
-      @odds_checker = OddsCheckerClient.new({:url => OC_URL})
+      @odds_checker = OddsCheckerClient.new({:url => "http://www.oc.com/premier-league"})
     end
 
     its "markets array should not be nil" do
-      binding.pry
       @odds_checker.markets.should_not be_nil
     end
 
+    it "has 10 markets" do
+      @odds_checker.markets.count.should be(10)
+    end
+
+
     it "has an array of markets" do
-      @odds_checker.markets.each {|market|
-        market.should be_a_kind_of(QuotedMarket)
-      }
+      @odds_checker.markets.each { |market| market.should be_a_kind_of(QuotedMarket) }
+    end
+
+    its "markets has competitors" do
+      @odds_checker.markets.each { |market|  market.competitors.each { |competitor| competitor.should be_a_kind_of(TweetPrices::Competitor) } }
     end
 
   end
