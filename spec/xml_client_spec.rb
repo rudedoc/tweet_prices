@@ -31,6 +31,7 @@ module TweetPrices
         @competitors.count.should eq(3)
       end
 
+      # TODO: remove duplication
       it "has a competitor called draw" do
         @competitors[0].name.should eq("draw")
       end

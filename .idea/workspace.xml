@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices/comparer.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices/comparer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices/oddschecker_client.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices/oddschecker_client.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/oddschecker_client_spec.rb" afterPath="$PROJECT_DIR$/spec/oddschecker_client_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices/xml_client.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices/xml_client.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/xml_client_spec.rb" afterPath="$PROJECT_DIR$/spec/xml_client_spec.rb" />
     </list>
     <ignored path="tweet_prices.iws" />
@@ -28,7 +23,7 @@
     <file path="/comparer.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1377727085231" ignored="false" />
     <file path="/comparison_set.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1377637198152" ignored="false" />
     <file path="/xml_client.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378241758308" ignored="false" />
-    <file path="/xml_client_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378242144165" ignored="false" />
+    <file path="/xml_client_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378242284568" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,7 @@
       <file leaf-file-name="xml_client_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/xml_client_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.40311173">
+            <state line="34" column="26" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.7213578">
               <folding />
             </state>
           </provider>
@@ -547,7 +542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/xml_client_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="820" selection-end="820" vertical-scroll-proportion="0.40311173">
+        <state line="34" column="26" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.7213578">
           <folding />
         </state>
       </provider>
