@@ -6,7 +6,7 @@ module TweetPrices
 
     before(:all) do
       stub_request(:get, "http://www.oc.com/premier-league").
-          to_return(:status => 200,:body => MockPage.page_success('premier-league-data/premier-League-oddschecker.html'),:headers => {})
+          to_return(:status => 200, :body => MockPage.page_success('premier-league-data/premier-League-oddschecker.html'), :headers => {})
       stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/everton-v-man-city/winner").
           to_return(:status => 200,
                     :body => MockPage.page_success("premier-league-data/Everton-v-Man-City.html"),
@@ -55,7 +55,7 @@ module TweetPrices
     end
 
     it "has 10 markets" do
-      @odds_checker.markets.count.should be(10)
+      @odds_checker.markets.count.should eq(10)
     end
 
 
@@ -64,7 +64,28 @@ module TweetPrices
     end
 
     its "markets has competitors" do
-      @odds_checker.markets.each { |market|  market.competitors.each { |competitor| competitor.should be_a_kind_of(TweetPrices::Competitor) } }
+      @odds_checker.markets.each { |market| market.competitors.each { |competitor| competitor.should be_a_kind_of(TweetPrices::Competitor) } }
+    end
+
+    describe "market data" do
+
+      before(:all) do
+        @market_competitors = @odds_checker.markets.first.competitors
+      end
+
+      it "should have 3 competitors in first quoted market" do
+        @market_competitors.count.should eq(3)
+      end
+
+      its "first competitor" do
+        puts "OC Markets:"
+        puts @odds_checker.markets.inspect
+
+
+        @market_competitors.first.name.should eq("man city")
+      end
+
+
     end
 
   end

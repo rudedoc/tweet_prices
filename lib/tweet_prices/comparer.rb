@@ -13,30 +13,12 @@ module TweetPrices
 
     private
 
-    def build_competitor(competitor_xml, bookie)
-      competitor_id = competitor_xml.xpath('@data-participant-id').text
-      price = competitor_xml.xpath("td[@id='#{competitor_id}_#{bookie}']").text
-      name = competitor_xml.xpath('td[2]').text.downcase
-      Competitor.new(name, price)
-    end
-
-    def parse_market(html_doc, bookie)
-      market = QuotedMarket.new(bookie)
-      html_doc.xpath("//tbody[@id='t1']/tr").each do |competitor_xml|
-        competitor = build_competitor(competitor_xml, bookie)
-        market.competitors << competitor
-      end
-      market
-    end
-
     def matching_competitors?(xml_market, market)
       (xml_market.competitor_names & market.competitor_names).count == 3
     end
 
     def build_comparison_set(html_doc, bookie)
       comparison_set = ComparisonSet.new
-      market = parse_market(html_doc, bookie)
-      comparison_set.market_quotes << parse_market(html_doc, bookie)
       xml.markets.each do |xml_market|
         if matching_competitors?(xml_market, market)
           comparison_set.market_quotes << xml_market unless comparison_set.market_quotes.collect { |quote| quote.bookmaker }.include?("XML")

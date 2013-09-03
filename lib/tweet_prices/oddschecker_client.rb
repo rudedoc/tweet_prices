@@ -16,7 +16,7 @@ module TweetPrices
 
     def create_markets(market_urls)
       market_urls.collect do |market_url|
-        create_market(html_doc(market_url), BOOKMAKERS[0])
+        create_market(html_doc(market_url), BOOKMAKERS[1])
       end
     end
 
@@ -35,7 +35,6 @@ module TweetPrices
       Competitor.new(name, price)
     end
 
-
     # TODO: rescue from HTTP exceptions
     def html_doc(market_url)
       Nokogiri::HTML(open(market_url))
@@ -47,7 +46,5 @@ module TweetPrices
         HOST_URL + market.xpath('td[5]/a/@href').text
       end
     end
-
   end
-
 end

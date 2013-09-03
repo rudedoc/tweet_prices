@@ -26,7 +26,7 @@ module TweetPrices
     end
 
     def market_competitors(event)
-      event.xpath('bettype[0]/bet').collect { |bet| create_competitor(bet) }
+      event.xpath('bettype[1]/bet').collect { |bet| create_competitor(bet) }
     end
 
     def create_competitor(bet)
