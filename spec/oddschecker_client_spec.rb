@@ -54,8 +54,8 @@ module TweetPrices
       @odds_checker.markets.should_not be_nil
     end
 
-    it "has 10 markets" do
-      @odds_checker.markets.count.should eq(10)
+    it "has 20 markets quotes" do
+      @odds_checker.markets.count.should eq(20)
     end
 
 
@@ -70,23 +70,23 @@ module TweetPrices
     describe "market data" do
 
       before(:all) do
-        @market_competitors = @odds_checker.markets.first.competitors
+        @first_market_competitors = @odds_checker.markets.first.competitors
       end
 
       it "should have 3 competitors in first quoted market" do
-        @market_competitors.count.should eq(3)
+        @first_market_competitors.count.should eq(3)
       end
 
       its "first competitor" do
-        puts "OC Markets:"
-        puts @odds_checker.markets.inspect
-
-
-        @market_competitors.first.name.should eq("man city")
+        @first_market_competitors.first.name.should eq("man city")
       end
 
+      its "last competitor" do
+        @first_market_competitors.last.name.should eq("everton")
+      end
 
     end
+
 
   end
 end

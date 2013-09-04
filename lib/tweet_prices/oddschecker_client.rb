@@ -15,9 +15,13 @@ module TweetPrices
     private
 
     def create_markets(market_urls)
-      market_urls.collect do |market_url|
-        create_market(html_doc(market_url), BOOKMAKERS[1])
+      markets = []
+      BOOKMAKERS.each do |bookie|
+        market_urls.each do |market_url|
+          markets << create_market(html_doc(market_url), bookie)
+        end
       end
+      markets
     end
 
     def create_market(html_doc, bookmaker)
