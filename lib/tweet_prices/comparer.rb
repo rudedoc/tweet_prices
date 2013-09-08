@@ -7,8 +7,8 @@ module TweetPrices
       @oddschecker_client = TweetPrices::OddsCheckerClient.new({:url => options[:oddschecker_url]})
     end
 
-    def common_markets
-
+    def markets
+      xml_client.markets.zip(oddschecker_client.markets).flatten.compact
     end
 
 

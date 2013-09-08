@@ -36,7 +36,17 @@ module TweetPrices
         @comparer.oddschecker_client.markets.count.should be(20)
       end
 
-      it "has x common markets"
+      it "has x common markets" do
+        puts "-------------------------"
+        @comparer.markets.each do |market|
+          puts " "
+          puts market.bookmaker.upcase
+          market.competitors.each do |comp|
+            puts comp.name
+          end
+
+        end
+      end
 
     end
   end
