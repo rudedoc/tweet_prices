@@ -8,7 +8,7 @@ module TweetPrices
     end
 
     def markets
-      xml_client.markets.zip(oddschecker_client.markets).flatten.compact
+      xml_client.markets | oddschecker_client.markets
     end
 
 

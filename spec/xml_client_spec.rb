@@ -30,19 +30,23 @@ module TweetPrices
       it "has 3 competitors" do
         @competitors.count.should eq(3)
       end
+    end
 
-      # TODO: remove duplication
-      it "has a competitor called draw" do
-        @competitors[0].name.should eq("draw")
+    describe "sorts it's competitors by name" do
+      before(:all) do
+        @markets = @xml.markets
       end
 
-      it "has a competitor called everton" do
-        @competitors[1].name.should eq("everton")
-      end
+       it "in all market" do
+         @markets[0].competitors[0].name.should eq("draw")
+         @markets[0].competitors[1].name.should eq("everton")
+         @markets[0].competitors[2].name.should eq("man city")
 
-      it "has a competitor called man city" do
-        @competitors[2].name.should eq("man city")
-      end
+         @markets[1].competitors[0].name.should eq("aston villa")
+         @markets[1].competitors[1].name.should eq("draw")
+         @markets[1].competitors[2].name.should eq("q.p.r")
+       end
+
     end
 
   end

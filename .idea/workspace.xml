@@ -7,6 +7,8 @@
     <list default="true" id="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices/comparer.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices/comparer.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/comparer_spec.rb" afterPath="$PROJECT_DIR$/spec/comparer_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/xml_client_spec.rb" afterPath="$PROJECT_DIR$/spec/xml_client_spec.rb" />
     </list>
     <ignored path="tweet_prices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,14 +19,14 @@
     <file path="/xml_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1377631656687" ignored="false" />
     <file path="/oddschecker_client.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378328130174" ignored="false" />
     <file path="/oddschecker_client_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378328710357" ignored="false" />
-    <file path="/comparer_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378678242887" ignored="false" />
+    <file path="/comparer_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378710447020" ignored="false" />
     <file path="/spec_helper.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1377633725678" ignored="false" />
     <file path="/market.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1377636976013" ignored="false" />
     <file path="/competitior.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1377637026292" ignored="false" />
     <file path="/comparer.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378677496037" ignored="false" />
     <file path="/comparison_set.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1377637198152" ignored="false" />
     <file path="/xml_client.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378674940812" ignored="false" />
-    <file path="/xml_client_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378242284568" ignored="false" />
+    <file path="/xml_client_spec.rb" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1378712413528" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +46,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comparer_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/comparer_spec.rb">
+      <file leaf-file-name="comparer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tweet_prices/comparer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="49" selection-start="3439" selection-end="3439" vertical-scroll-proportion="0.40677965">
+            <state line="9" column="29" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comparer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tweet_prices/comparer.rb">
+      <file leaf-file-name="comparer_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/comparer_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+            <state line="12" column="24" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xml_client_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/xml_client_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="57" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.6779661">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quoted_market.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tweet_prices/quoted_market.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xml_client.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tweet_prices/xml_client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="50" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,12 +119,12 @@
         <option value="$PROJECT_DIR$/lib/tweet_prices/quoted_market.rb" />
         <option value="$PROJECT_DIR$/spec/fixtures/premier-league-data/premier-League-oddschecker.html" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/xml_client_spec.rb" />
         <option value="$PROJECT_DIR$/lib/tweet_prices/oddschecker_client.rb" />
         <option value="$PROJECT_DIR$/spec/oddschecker_client_spec.rb" />
         <option value="$PROJECT_DIR$/lib/tweet_prices/xml_client.rb" />
         <option value="$PROJECT_DIR$/lib/tweet_prices/comparer.rb" />
         <option value="$PROJECT_DIR$/spec/comparer_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/xml_client_spec.rb" />
       </list>
     </option>
   </component>
@@ -178,10 +207,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="premier-league-data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,19 +521,9 @@
         <state line="24" column="20" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tweet_prices/quoted_market.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/fixtures/premier-league-data/premier-League-oddschecker.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="905" column="30" selection-start="107387" selection-end="107387" vertical-scroll-proportion="-5.26" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/xml_client_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="907" selection-end="907" vertical-scroll-proportion="0.46676096" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/oddschecker_client_spec.rb">
@@ -525,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tweet_prices/xml_client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="161" selection-end="161" vertical-scroll-proportion="0.23160763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tweet_prices/comparison_set.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="5" selection-start="840" selection-end="840" vertical-scroll-proportion="1.26703">
@@ -541,14 +549,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tweet_prices/comparer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="9" column="29" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/comparer_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="49" selection-start="3439" selection-end="3439" vertical-scroll-proportion="0.40677965">
+        <state line="12" column="24" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tweet_prices/quoted_market.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tweet_prices/xml_client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/xml_client_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="57" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.6779661">
           <folding />
         </state>
       </provider>

@@ -3,7 +3,7 @@ require 'spec_helper'
 module TweetPrices
   describe TweetPrices do
     describe Comparer do
-      before(:each) do
+      before(:all) do
         stub_request(:get, "http://www.xml.com/premier-league").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/football-premier-league.XML'), :headers => {})
         stub_request(:get, "http://www.oc.com/premier-league").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/premier-League-oddschecker.html'), :headers => {})
         stub_request(:get, "http://www.oddschecker.com/football/english/premier-league/everton-v-man-city/winner").to_return(:status => 200, :body => MockPage.page_success('premier-league-data/Everton-v-Man-City.html'), :headers => {})
@@ -38,6 +38,9 @@ module TweetPrices
 
       it "has x common markets" do
         puts "-------------------------"
+
+        puts @comparer.markets.count
+
         @comparer.markets.each do |market|
           puts " "
           puts market.bookmaker.upcase
