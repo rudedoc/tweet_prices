@@ -44,7 +44,7 @@ module TweetPrices
 
          @markets[1].competitors[0].name.should eq("aston villa")
          @markets[1].competitors[1].name.should eq("draw")
-         @markets[1].competitors[2].name.should eq("q.p.r")
+         @markets[1].competitors[2].name.should eq("q.p.r.")
        end
 
     end

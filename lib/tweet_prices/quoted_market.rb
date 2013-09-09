@@ -10,5 +10,10 @@ module TweetPrices
     def competitor_names
       @competitors.collect { |competitor| competitor.name }
     end
+
+    def competitors
+      @competitors.sort!{|a,b| a.name.downcase <=> b.name.downcase }
+    end
+
   end
 end
