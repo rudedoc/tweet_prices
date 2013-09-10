@@ -22,7 +22,6 @@ module TweetPrices
       @comparer.xml_client.should be_a_kind_of(TweetPrices::XmlClient)
     end
 
-
     it "has an oddschecker_client object" do
       @comparer.oddschecker_client.should be_a_kind_of(TweetPrices::OddsCheckerClient)
     end
@@ -42,9 +41,11 @@ module TweetPrices
       end
 
       it "has x common markets" do
+        @comparer.common_markets.each do |market|
+          puts market.name.inspect
+        end
         @comparer.common_markets.count.should be(10)
       end
-
     end
   end
 end
