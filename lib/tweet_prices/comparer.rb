@@ -11,6 +11,9 @@ module TweetPrices
       xml_client.markets | oddschecker_client.markets
     end
 
+    def common_markets
+      markets.sort! { |markets|  }
+    end
 
   end
 

@@ -78,11 +78,11 @@ module TweetPrices
       end
 
       its "first competitor" do
-        @first_market_competitors.first.name.should eq("man city")
+        @first_market_competitors.first.name.should eq("draw")
       end
 
       its "last competitor" do
-        @first_market_competitors.last.name.should eq("everton")
+        @first_market_competitors.last.name.should eq("man city")
       end
 
     end
