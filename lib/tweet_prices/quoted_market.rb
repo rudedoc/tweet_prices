@@ -12,12 +12,11 @@ module TweetPrices
     end
 
     def competitors
-      @competitors.sort!{|a,b| a.name.downcase <=> b.name.downcase }
+      @competitors.sort! {|a,b| a.name.downcase <=> b.name.downcase }
     end
 
     def name
-      @competitors.collect {|competitor| competitor.name.capitalize}.join.gsub(" ", "")
+      competitors.collect {|competitor| competitor.name.capitalize}.join.gsub(" ", "").gsub(".", "")
     end
-
   end
 end

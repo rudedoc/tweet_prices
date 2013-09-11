@@ -41,8 +41,9 @@ module TweetPrices
       end
 
       it "has x common markets" do
+        puts " "
         @comparer.common_markets.each do |market|
-          puts market.name.inspect
+          puts market.name
         end
         @comparer.common_markets.count.should be(10)
       end
