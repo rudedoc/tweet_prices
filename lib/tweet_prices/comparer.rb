@@ -12,9 +12,7 @@ module TweetPrices
     end
 
     def common_markets
-      markets.sort! {|a,b| a.name <=> b.name}
+      markets.group_by(&:name)
     end
-
   end
-
 end
