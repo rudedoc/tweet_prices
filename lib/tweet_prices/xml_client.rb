@@ -3,7 +3,7 @@ module TweetPrices
     attr_reader :markets, :url, :source_name
 
     def initialize(options)
-      @source_name = options[:source_name] || "xml"
+      @source_name = options[:source_name] || "XM"
       @url = options[:url]
       @markets = create_markets(Nokogiri::XML(open(@url)))
     end

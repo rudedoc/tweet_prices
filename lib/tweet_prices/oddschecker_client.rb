@@ -26,7 +26,7 @@ module TweetPrices
 
     def create_market(html_doc, bookmaker)
       market = QuotedMarket.new(bookmaker)
-      html_doc.xpath("//tbody[@id='t1']/tr").each do |competitor_xml|
+      html_doc.xpath("//tbody[@id='t1']/tr").collect do |competitor_xml|
         market.competitors << create_competitor(competitor_xml, bookmaker)
       end
       market

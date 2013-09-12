@@ -18,5 +18,11 @@ module TweetPrices
     def name
       competitors.collect {|competitor| competitor.name.capitalize}.join.gsub(" ", "").gsub(".", "")
     end
+
+    def to_s
+      competitor_desctiptions = competitors.collect {|competitor| "#{competitor.name} @ #{competitor.price}"}.compact.to_s
+      "#{bookmaker} - #{name} - #{competitor_desctiptions} "
+    end
+
   end
 end
