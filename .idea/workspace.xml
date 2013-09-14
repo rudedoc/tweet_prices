@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/lib/tweet_prices/oddschecker_client.rb" line="8" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tweet_prices/comparison_set.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices/comparer.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices/comparer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/comparer_spec.rb" afterPath="$PROJECT_DIR$/spec/comparer_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices/competitor.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices/competitor.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices/quoted_market.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices/quoted_market.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tweet_prices.rb" afterPath="$PROJECT_DIR$/lib/tweet_prices.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" name="Default" comment="" />
     <ignored path="tweet_prices.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9e9d1c29-6142-47c0-b0b9-873eb5de2bd1" time="1379169900985" ignored="false" />
