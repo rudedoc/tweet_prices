@@ -8,21 +8,15 @@ module TweetPrices
     end
 
     def competitor_names
-      @competitors.collect { |competitor| competitor.name }
+      @competitors.collect {|competitor| competitor.name}
     end
 
     def competitors
-      @competitors.sort! {|a,b| a.name.downcase <=> b.name.downcase }
+      @competitors.sort! {|a,b| a.name.downcase <=> b.name.downcase}
     end
 
     def name
-      competitors.collect {|competitor| competitor.name.capitalize}.join.gsub(" ", "").gsub(".", "")
+      competitors.collect {|competitor| competitor.name.capitalize}.join.gsub(".", "")
     end
-
-    def to_s
-      competitor_desctiptions = competitors.collect {|competitor| "#{competitor.name} @ #{competitor.price}"}.compact.to_s
-      "#{bookmaker} - #{name} - #{competitor_desctiptions} "
-    end
-
   end
 end

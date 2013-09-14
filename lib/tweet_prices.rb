@@ -8,5 +8,4 @@ module TweetPrices
   require 'tweet_prices/quoted_market'
   require 'tweet_prices/competitor'
   require 'tweet_prices/comparer'
-  require 'tweet_prices/comparison_set'
 end

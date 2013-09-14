@@ -9,7 +9,12 @@ module TweetPrices
 
     def decimal_price
       numerator, denominator = @price.split('/')
-      (numerator.to_f / denominator.to_f).round(2)
+      if denominator
+        (numerator.to_f / denominator.to_f) + 1
+      else
+        numerator.to_f + 1
+      end
     end
+
   end
 end

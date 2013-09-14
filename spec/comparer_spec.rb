@@ -34,20 +34,17 @@ module TweetPrices
       @comparer.oddschecker_client.markets.count.should be(20)
     end
 
-    describe "common_markets" do
+    describe "grouped_markets" do
 
-      it "has an array of comparison sets" do
-        @comparer.common_markets.each { |comparison_set| comparison_set.should be_a_kind_of(TweetPrices::ComparisonSet) }
+      it "has x grouped markets" do
+        @comparer.grouped_markets.count.should be(10)
       end
 
-      it "has x common markets" do
-        #puts " "
-        #@comparer.common_markets.each do |market|
-        #  puts market
-        #  puts "---------------------------------"
-        #end
-        @comparer.common_markets.count.should be(10)
+      it "sorted markets by price for each selection" do
+        @comparer.sorted_markets
+
       end
+
     end
   end
 end
