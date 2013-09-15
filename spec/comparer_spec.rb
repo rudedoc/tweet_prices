@@ -41,7 +41,10 @@ module TweetPrices
       end
 
       it "sorted markets by price for each selection" do
-        @comparer.sorted_markets
+        @comparer.sorted_markets.each do |market|
+          puts "--------------------------------------------------- "
+          puts market.inspect
+        end
 
       end
 

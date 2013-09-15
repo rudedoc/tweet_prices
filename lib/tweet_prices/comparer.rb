@@ -21,16 +21,16 @@ module TweetPrices
       grouped_markets.values.each do |market|
         market.each do |quote|
           quote.competitors.each do |competitor|
-            if sorting_hash[competitor.name] == nil
-              sorting_hash[competitor.name] = [[competitor.price_decimal, quote.bookmaker]]
+            if sorting_hash[quote.name] == nil
+              sorting_hash[quote.name] = [[competitor.name, competitor.price_decimal, quote.bookmaker]]
             else
-              sorting_hash[competitor.name] << [competitor.price_decimal, quote.bookmaker]
+              sorting_hash[quote.name] << [competitor.name, competitor.price_decimal, quote.bookmaker]
             end
-            sorting_hash[competitor.name].sort! { |comp_a, comp_b| comp_b[0] <=> comp_a[0] }
           end
         end
       end
       sorting_hash
     end
+
   end
 end

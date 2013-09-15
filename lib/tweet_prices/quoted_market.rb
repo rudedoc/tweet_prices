@@ -16,7 +16,7 @@ module TweetPrices
     end
 
     def name
-      competitors.collect {|competitor| competitor.name.capitalize}.join.gsub(".", "")
+      competitors.collect {|competitor| competitor.name.capitalize}.join("-").gsub(".", "")
     end
   end
 end
